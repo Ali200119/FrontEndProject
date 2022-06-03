@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: News Gothic Light;
+    src: url("/assets/fonts/News\ Gothic\ Light.otf");
+}
+
+header #Covid-19 {
+    font-family: News Gothic Light;
+    background-color: #233A95;
+    height: 35px;
+    color: white;
+    text-align: center;
+    padding-top: 9px;
+}
+
+header #Covid-19 h5 {
+    font-weight: 100;
+}

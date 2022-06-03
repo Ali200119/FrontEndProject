@@ -9,6 +9,8 @@
     src: url("/assets/fonts/News\ Gothic\ Light.otf");
 }
 
+/* ---------- Header Start ---------- */
+
 header #Covid-19 {
     font-family: News Gothic Light;
     background-color: #233A95;
@@ -21,6 +23,8 @@ header #Covid-19 {
 header #Covid-19 h5 {
     font-weight: 100;
 }
+
+/* ---------- Nav Part1 Start ---------- */
 
 header nav .Part1 {
     height: 45px;
@@ -36,23 +40,24 @@ header nav .Part1 .Flex {
     margin: auto;
 }
 
-header nav .Part1 .Flex ul {
+header nav .Part1 .Flex .LeftSideBar {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 300px;
     padding-top: 12px;
+    height: 45px;
 }
 
-header nav .Part1 .Flex ul li a {
+header nav .Part1 .Flex .LeftSideBar li a {
     text-decoration: none;
     color: #233A95;
     font-size: 13px;
-    transition-duration: 325ms;
+    transition-duration: 250ms;
 }
 
-header nav .Part1 .Flex ul li a:hover {
+header nav .Part1 .Flex .LeftSideBar li a:hover {
     color: #57C4F9;
 }
 
@@ -61,10 +66,14 @@ header nav .Part1 .Flex .Guarantee {
     flex-wrap: wrap;
     padding-left: 100px;
     padding-top: 8px;
+    height: 45px;
 }
 
 header nav .Part1 .Flex .Guarantee img {
-    padding-right: 10px;
+    position: relative;
+    right: 10px;
+    bottom: 4px;
+    width: 30px;
 }
 
 header nav .Part1 .Flex .Guarantee h5 {
@@ -84,6 +93,7 @@ header nav .Part1 .Flex .Help {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 230px;
+    height: 45px;
     padding-top: 8px;
 }
 
@@ -111,7 +121,6 @@ header nav .Part1 .Flex .Help p {
 }
 
 header nav .Part1 .Flex .CaC {
-    color: #233A95;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -121,15 +130,81 @@ header nav .Part1 .Flex .CaC {
 
 header nav .Part1 .Flex .CaC .Menu {
     display: flex;
+    color: #233A95;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-top: 3px;
+    cursor: pointer;
+    transition-duration: 250ms;
+    position: relative;
+    bottom: 10px;
+    padding-top: 13px;
+}
+
+header nav .Part1 .Flex .CaC .Menu:hover {
+    color: #57C4F9;
 }
 
 header nav .Part1 .Flex .CaC .Country {
     width: 65px;
+    height: 45px;
 }
 
 header nav .Part1 .Flex .CaC .Currency {
     width: 50px;
 }
+
+header nav .Part1 .Flex .CaC .CountrySideBar {
+    width: 110px;
+    height: 100px;
+    position: relative;
+    bottom: 11px;
+    right: 25px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+header nav .Part1 .Flex .CaC .CountrySideBar ul {
+    list-style: none;
+    color: black;
+    text-align: center;
+}
+
+header nav .Part1 .Flex .CaC .CountrySideBar ul li {
+    padding-top: 10px;
+    cursor: pointer;
+    transition-duration: 250ms;
+}
+
+header nav .Part1 .Flex .CaC .CountrySideBar ul li:hover {
+    color: #57C4F9;
+}
+
+header nav .Part1 .Flex .CaC .CurrencySideBar {
+    width: 110px;
+    height: 100px;
+    position: relative;
+    bottom: 11px;
+    left: 55px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+header nav .Part1 .Flex .CaC .CurrencySideBar ul {
+    list-style: none;
+    color: black;
+    text-align: center;
+}
+
+header nav .Part1 .Flex .CaC .CurrencySideBar ul li {
+    padding-top: 10px;
+    cursor: pointer;
+    transition-duration: 250ms;
+}
+
+header nav .Part1 .Flex .CaC .CurrencySideBar ul li:hover {
+    color: #57C4F9;
+}
+
+/* ---------- Nav Part1 End ---------- */
+
+/* ---------- Header End ---------- */

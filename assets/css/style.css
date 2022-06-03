@@ -21,3 +21,115 @@ header #Covid-19 {
 header #Covid-19 h5 {
     font-weight: 100;
 }
+
+header nav .Part1 {
+    height: 45px;
+    border-bottom: 1px rgb(209, 209, 209) solid;
+}
+
+header nav .Part1 .Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: News Gothic Light;
+    width: 1185px;
+    margin: auto;
+}
+
+header nav .Part1 .Flex ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 300px;
+    padding-top: 12px;
+}
+
+header nav .Part1 .Flex ul li a {
+    text-decoration: none;
+    color: #233A95;
+    font-size: 13px;
+    transition-duration: 325ms;
+}
+
+header nav .Part1 .Flex ul li a:hover {
+    color: #57C4F9;
+}
+
+header nav .Part1 .Flex .Guarantee {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    padding-top: 8px;
+}
+
+header nav .Part1 .Flex .Guarantee img {
+    padding-right: 10px;
+}
+
+header nav .Part1 .Flex .Guarantee h5 {
+    font-weight: 100;
+    color: #233A95;
+    padding-top: 5px;
+}
+
+header nav .Part1 .Flex .Guarantee span {
+    opacity: 0.3;
+    padding-left: 20px;
+    padding-top: 3px;
+}
+
+header nav .Part1 .Flex .Help {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 230px;
+    padding-top: 8px;
+}
+
+header nav .Part1 .Flex .Help h5 {
+    font-weight: 100;
+    padding-top: 5px;
+    color: #233A95;
+}
+
+header nav .Part1 .Flex .Help span {
+    padding-top: 4px;
+    color: #57C4F9;
+    font-weight: bold;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+header nav .Part1 .Flex .Help span:hover {
+    text-decoration: underline;
+}
+
+header nav .Part1 .Flex .Help p {
+    padding-top: 3px;
+    opacity: 0.3;
+}
+
+header nav .Part1 .Flex .CaC {
+    color: #233A95;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 140px;
+    padding-top: 10px;
+}
+
+header nav .Part1 .Flex .CaC .Menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 3px;
+}
+
+header nav .Part1 .Flex .CaC .Country {
+    width: 65px;
+}
+
+header nav .Part1 .Flex .CaC .Currency {
+    width: 50px;
+}

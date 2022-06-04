@@ -324,6 +324,16 @@ header nav .Part2 .Flex .Account {
     align-items: center;
 }
 
+header nav .Part2 .Flex .Account span {
+    position: relative;
+    left: 6px;
+}
+
+header nav .Part2 .Flex .Account h4 {
+    position: relative;
+    right: 4px;
+}
+
 header nav .Part2 .Flex .Account .Basket {
     border-radius: 50%;
     height: 40px;
@@ -353,5 +363,14 @@ header nav .Part2 .Flex .Account sup {
 /* ---------- Nav Part2 End ---------- */
 
 
+
+/* ---------- Nav Part3 Start ---------- */
+
+header nav .Part3 {
+    border: 1px solid;
+    height: 70px;
+    position: relative;
+    top: 26px;
+}
 
 /* ---------- Header End ---------- */

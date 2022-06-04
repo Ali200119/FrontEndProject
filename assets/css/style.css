@@ -94,21 +94,21 @@ header nav .Part1 .Flex .Help {
     justify-content: space-between;
     width: 230px;
     height: 45px;
-    padding-top: 8px;
 }
 
 header nav .Part1 .Flex .Help h5 {
     font-weight: 100;
-    padding-top: 5px;
     color: #233A95;
+    margin-top: 14px;
 }
 
 header nav .Part1 .Flex .Help span {
-    padding-top: 4px;
     color: #57C4F9;
     font-weight: bold;
-    padding-right: 15px;
     cursor: pointer;
+    height: fit-content;
+    margin-top: 13px;
+    margin-right: 10px;
 }
 
 header nav .Part1 .Flex .Help span:hover {
@@ -116,8 +116,8 @@ header nav .Part1 .Flex .Help span:hover {
 }
 
 header nav .Part1 .Flex .Help p {
-    padding-top: 3px;
     opacity: 0.3;
+    margin-top: 12px;
 }
 
 header nav .Part1 .Flex .CaC {
@@ -137,7 +137,12 @@ header nav .Part1 .Flex .CaC .Menu {
     transition-duration: 250ms;
     position: relative;
     bottom: 10px;
-    padding-top: 13px;
+    padding-top: 13px;;
+}
+
+header nav .Part1 .Flex .CaC .Menu .Chevron {
+    font-size: small;
+    padding-top: 2px;
 }
 
 header nav .Part1 .Flex .CaC .Menu:hover {
@@ -161,6 +166,7 @@ header nav .Part1 .Flex .CaC .CountrySideBar {
     right: 25px;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: none;
 }
 
 header nav .Part1 .Flex .CaC .CountrySideBar ul {
@@ -187,6 +193,7 @@ header nav .Part1 .Flex .CaC .CurrencySideBar {
     left: 55px;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: none;
 }
 
 header nav .Part1 .Flex .CaC .CurrencySideBar ul {
@@ -206,5 +213,38 @@ header nav .Part1 .Flex .CaC .CurrencySideBar ul li:hover {
 }
 
 /* ---------- Nav Part1 End ---------- */
+
+
+
+/* ---------- Nav Part2 Start ---------- */
+
+header nav .Part2 {
+    height: 130px;
+    border: 1px solid;
+    font-family: News Gothic Light;
+}
+
+header nav .Part2 .Flex .Logo {
+    display: inline-block;
+}
+
+header nav .Part2 .Flex .Logo a {
+    text-decoration: none;
+}
+
+header nav .Part2 .Flex .Logo h6 {
+    color: gray;
+    opacity: 0.5;
+    text-align: center;
+    font-size: 12px;
+}
+
+header nav .Part2 .Flex .Location {
+    
+}
+
+/* ---------- Nav Part2 End ---------- */
+
+
 
 /* ---------- Header End ---------- */

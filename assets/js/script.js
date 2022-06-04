@@ -2,6 +2,10 @@ let Country = document.querySelector (".Country");
 let CountrySideBar = document.querySelector (".CountrySideBar");
 let Currency = document.querySelector (".Currency");
 let CurrencySideBar = document.querySelector (".CurrencySideBar");
+let Search = document.querySelector (".Search").firstElementChild;
+
+
+/* ---------- Country SideBar Start ---------- */
 
 Country.addEventListener ("mouseover", function () {
     CountrySideBar.style.display = "block"
@@ -19,7 +23,11 @@ CountrySideBar.addEventListener ("mouseleave", function () {
     CountrySideBar.style.display = "none";
 })
 
+/* ---------- Country SideBar End ---------- */
 
+
+
+/* ---------- Currency SideBar Start ---------- */
 
 Currency.addEventListener ("mouseover", function () {
     CurrencySideBar.style.display = "block"
@@ -36,3 +44,5 @@ CurrencySideBar.addEventListener ("mouseover", function () {
 CurrencySideBar.addEventListener ("mouseleave", function () {
     CurrencySideBar.style.display = "none";
 })
+
+/* ---------- Currency SideBar End ---------- */

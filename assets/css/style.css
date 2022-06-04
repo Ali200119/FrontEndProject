@@ -274,7 +274,26 @@ header nav .Part2 .Flex .Location .Chevron2 {
     position: relative;
 }
 
-header nav .Part2 .Flex
+header nav .Part2 .Flex .Search {
+    display: inline-block;
+}
+
+header nav .Part2 .Flex .Search input {
+    height: 60px;
+    width: 555px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border-width: 0;
+    border-radius: 7px;
+}
+
+header nav .Part2 .Flex .Search input:focus {
+    outline: none;
+}
+
+header nav .Part2 .Flex .Search input::placeholder {
+    opacity: 0.8;
+}
 
 /* ---------- Nav Part2 End ---------- */
 

@@ -57,7 +57,7 @@ header nav .Part1 .Flex .LeftSideBar {
 
 header nav .Part1 .Flex .LeftSideBar li a {
     text-decoration: none;
-    color: #233A95;
+    color: #3E445A;
     font-size: 13px;
     transition-duration: 250ms;
 }
@@ -83,7 +83,7 @@ header nav .Part1 .Flex .Guarantee img {
 
 header nav .Part1 .Flex .Guarantee h5 {
     font-weight: 100;
-    color: #233A95;
+    color: #3E445A;
     padding-top: 5px;
 }
 
@@ -103,7 +103,7 @@ header nav .Part1 .Flex .Help {
 
 header nav .Part1 .Flex .Help h5 {
     font-weight: 100;
-    color: #233A95;
+    color: #3E445A;
     margin-top: 14px;
 }
 
@@ -135,7 +135,7 @@ header nav .Part1 .Flex .CaC {
 
 header nav .Part1 .Flex .CaC .Menu {
     display: flex;
-    color: #233A95;
+    color: #3E445A;
     flex-wrap: wrap;
     justify-content: space-between;
     cursor: pointer;
@@ -408,6 +408,26 @@ header nav .Part3 .Flex .Total {
     text-align: center;
     border-radius: 15px;
     padding-top: 1px;
+}
+
+header nav .Part3 .Flex .Menu {
+    display: inline-block;
+}
+
+header nav .Part3 .Flex .Menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: #EA2B0F solid;
+    list-style: none;
+    justify-content: space-between;
+    width: 300px;
+}
+
+header nav .Part3 .Flex .Menu ul .Chevron {
+    font-size: small;
+    padding-left: 14px;
+    position: relative;
+    bottom: 2px;
 }
 
 /* ---------- Header End ---------- */

@@ -381,6 +381,14 @@ header nav .Part3 {
     font-family: Barlow Semi Condensed;
 }
 
+header nav .Part3 .Flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid blueviolet;
+    width: 1400px;
+}
+
 header nav .Part3 .Flex .Categories {
     background-color: #2BBEF9;
     width: 212px;
@@ -424,17 +432,44 @@ header nav .Part3 .Flex .Menu ul {
     border: #EA2B0F solid;
     list-style: none;
     justify-content: space-between;
-    width: 795px;
-    color: #3E445A;
+    width: 920px;
 }
 
 header nav .Part3 .Flex .Menu ul li {
-    font-weight: bold;
     border: 1px solid;
+    height: 60px;
+}
+
+header nav .Part3 .Flex .Menu ul li:hover .Border a {
+    color: #2BBEF9;
+}
+
+header nav .Part3 .Flex .Menu ul li:hover .Border {
+    background-color: #F0FAFF;
+}
+
+header nav .Part3 .Flex .Menu ul li .Border {
     height: 40px;
     text-align: center;
     padding-top: 8px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition-duration: 250ms;
     cursor: pointer;
+}
+
+header nav .Part3 .Flex .Menu ul li .Border a {
+    text-decoration: none;
+    color: #3E445A;
+    transition-duration: 250ms;
+}
+
+header nav .Part3 .Flex .Menu ul li .Border a .MenuIcons {
+    position: relative;
+    bottom: 1px;
+    right: 1px;
+    font-size: larger;
+    margin-right: 10px;
 }
 
 header nav .Part3 .Flex .Menu ul li .Chevron {
@@ -444,20 +479,20 @@ header nav .Part3 .Flex .Menu ul li .Chevron {
     bottom: 2px;
 }
 
-header nav .Part3 .Flex .HomeBar {
-    background-color: white;
+header nav .Part3 .HomeBar {
+    background-color: blue;
     width: 200px;
     height: 220px;
     border-radius: 5px;
 }
 
-header nav .Part3 .Flex .HomeBar ul {
+header nav .Part3 .HomeBar ul {
     list-style: none;
     padding-left: 30px;
     padding-top: 25px;
 }
 
-header nav .Part3 .Flex .HomeBar ul li {
+header nav .Part3 .HomeBar ul li {
     padding-top: 10px;
 }
 

@@ -46,3 +46,13 @@ CurrencySideBar.addEventListener ("mouseleave", function () {
 })
 
 /* ---------- Currency SideBar End ---------- */
+
+// Home.addEventListener ("click", function () {
+//     if (HomeBar.style.display == "none") {
+//         HomeBar.style.display = "block";
+//     }
+
+//     else {
+//         HomeBar.style.display = "none";
+//     }
+// })

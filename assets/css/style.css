@@ -445,10 +445,10 @@ header nav .Part3 .Flex .Menu ul li .Chevron {
 }
 
 header nav .Part3 .Flex .HomeBar {
-    background-color: orange;
-    color: white;
+    background-color: white;
     width: 200px;
     height: 220px;
+    border-radius: 5px;
 }
 
 header nav .Part3 .Flex .HomeBar ul {
@@ -460,5 +460,7 @@ header nav .Part3 .Flex .HomeBar ul {
 header nav .Part3 .Flex .HomeBar ul li {
     padding-top: 10px;
 }
+
+/* ---------- Nav Part3 End ---------- */
 
 /* ---------- Header End ---------- */

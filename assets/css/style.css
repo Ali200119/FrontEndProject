@@ -171,7 +171,8 @@ header nav .Part1 .Flex .CaC .CountrySideBar {
     right: 27px;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     display: none;
     z-index: 1;
 }
@@ -200,7 +201,8 @@ header nav .Part1 .Flex .CaC .CurrencySideBar {
     left: 73px;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
     display: none;
     z-index: 1;
 }
@@ -377,7 +379,7 @@ header nav .Part3 {
     border: 1px solid;
     height: 70px;
     position: relative;
-    top: 26px;
+    top: 40px;
     font-family: Barlow Semi Condensed;
 }
 
@@ -385,8 +387,8 @@ header nav .Part3 .Flex {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid blueviolet;
-    width: 1400px;
+    width: 1198px;
+    margin-left: 362px;
 }
 
 header nav .Part3 .Flex .Categories {
@@ -400,6 +402,7 @@ header nav .Part3 .Flex .Categories {
     align-items: center;
     border-radius: 30px;
     cursor: pointer;
+    margin-top: 3px;
 }
 
 header nav .Part3 .Flex .Categories h4 {
@@ -420,6 +423,9 @@ header nav .Part3 .Flex .Total {
     border-radius: 15px;
     padding-top: 1px;
     cursor: pointer;
+    position: relative;
+    right: 199px;
+    top: 44px;
 }
 
 header nav .Part3 .Flex .Menu {
@@ -429,15 +435,14 @@ header nav .Part3 .Flex .Menu {
 header nav .Part3 .Flex .Menu ul {
     display: flex;
     flex-wrap: wrap;
-    border: #EA2B0F solid;
     list-style: none;
     justify-content: space-between;
-    width: 920px;
+    width: 830px;
 }
 
 header nav .Part3 .Flex .Menu ul li {
-    border: 1px solid;
     height: 60px;
+    margin-top: 10px;
 }
 
 header nav .Part3 .Flex .Menu ul li:hover .Border a {
@@ -451,7 +456,7 @@ header nav .Part3 .Flex .Menu ul li:hover .Border {
 header nav .Part3 .Flex .Menu ul li .Border {
     height: 40px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 10px;
     font-weight: bold;
     border-radius: 20px;
     transition-duration: 250ms;
@@ -479,20 +484,25 @@ header nav .Part3 .Flex .Menu ul li .Chevron {
     bottom: 2px;
 }
 
-header nav .Part3 .HomeBar {
+header nav .Part3 .SideBars {
+    border: 1px solid;
+}
+
+header nav .Part3 .SideBars .HomeBar {
     background-color: blue;
     width: 200px;
     height: 220px;
-    border-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
-header nav .Part3 .HomeBar ul {
+header nav .Part3 .SideBars .HomeBar ul {
     list-style: none;
     padding-left: 30px;
     padding-top: 25px;
 }
 
-header nav .Part3 .HomeBar ul li {
+header nav .Part3 .SideBars .HomeBar ul li {
     padding-top: 10px;
 }
 

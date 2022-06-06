@@ -126,18 +126,33 @@ let HomeBar = document.querySelector (".HomeBar");
 
 Home.addEventListener ("mouseover", function () {
     HomeBar.style.display = "block";
+
+    if (CategoriesBar.style.display == "block") {
+        CategoriesBar.style.display = "none";
+    }
 })
 
 Home.addEventListener ("mouseleave", function () {
     HomeBar.style.display = "none";
+
+    if (CategoriesBar.style.display == "none") {
+        CategoriesBar.style.display = "block";
+    }
 })
 
 HomeBar.addEventListener ("mouseover", function () {
     HomeBar.style.display = "block";
+    if (CategoriesBar.style.display == "block") {
+        CategoriesBar.style.display = "none";
+    }
 })
 
 HomeBar.addEventListener ("mouseleave", function () {
     HomeBar.style.display = "none";
+
+    if (CategoriesBar.style.display == "none") {
+        CategoriesBar.style.display = "block";
+    }
 })
 
 /* ---------- Home SideBar End ---------- */

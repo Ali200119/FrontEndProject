@@ -14,6 +14,11 @@
     src: url("/assets/fonts/Barlow\ Semi\ Condensed.ttf");
 }
 
+@font-face {
+    font-family: TT Rounds Neue;
+    src: url("/assets/fonts/TT\ Rounds\ Neue.ttf");
+}
+
 /* ---------- Header Start ---------- */
 
 header #Covid-19 {
@@ -190,7 +195,7 @@ header nav .Part1 .Flex .CaC .CountrySideBar ul li {
 }
 
 header nav .Part1 .Flex .CaC .CountrySideBar ul li:hover {
-    color: #2BBEF9;
+    color: #57C4F9;
 }
 
 header nav .Part1 .Flex .CaC .CurrencySideBar {
@@ -376,11 +381,9 @@ header nav .Part2 .Flex .Account sup {
 /* ---------- Nav Part3 Start ---------- */
 
 header nav .Part3 {
-    border: 1px solid;
     height: 70px;
     position: relative;
     top: 40px;
-    font-family: Barlow Semi Condensed;
 }
 
 header nav .Part3 .Flex {
@@ -388,7 +391,8 @@ header nav .Part3 .Flex {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1198px;
-    margin-left: 362px;
+    margin-left: 266px;
+    font-family: Barlow Semi Condensed;
 }
 
 header nav .Part3 .Flex .Categories {
@@ -445,11 +449,8 @@ header nav .Part3 .Flex .Menu ul li {
     margin-top: 10px;
 }
 
-header nav .Part3 .Flex .Menu ul li:hover .Border a {
-    color: #2BBEF9;
-}
-
 header nav .Part3 .Flex .Menu ul li:hover .Border {
+    color: #57C4F9;
     background-color: #F0FAFF;
 }
 
@@ -463,13 +464,14 @@ header nav .Part3 .Flex .Menu ul li .Border {
     cursor: pointer;
 }
 
-header nav .Part3 .Flex .Menu ul li .Border a {
+header nav .Part3 .Flex .Menu ul li .Border {
     text-decoration: none;
     color: #3E445A;
     transition-duration: 250ms;
+    display: inline-block;
 }
 
-header nav .Part3 .Flex .Menu ul li .Border a .MenuIcons {
+header nav .Part3 .Flex .Menu ul li .Border .MenuIcons {
     position: relative;
     bottom: 1px;
     right: 1px;
@@ -485,15 +487,130 @@ header nav .Part3 .Flex .Menu ul li .Chevron {
 }
 
 header nav .Part3 .SideBars {
-    border: 1px solid;
+    font-family: TT Rounds Neue;
+    font-size: 14px;
+    z-index: 1;
+    justify-content: space-between;
+    width: 580px;
+    position: relative;
+    left: 270px;
+}
+
+header nav .Part3 .SideBars li {
+    transition-duration: 250ms;
+    color: #3E445A;
+    cursor: pointer;
+}
+
+header nav .Part3 .SideBars .CategoriesBar {
+    background-color: white;
+    width: 275px;
+    height: 500px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 {
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 li {
+    margin-top: 20px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 li:hover {
+    color: #57C4F9;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 li:hover .MenuIcons {
+    color: #57C4F9;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 li .MenuIcons {
+    font-size: large;
+    color: #9EA1AC;
+    transition-duration: 250ms;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 li .Chevron1 {
+    padding-left: 60px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL1 li .Chevron2 {
+    padding-left: 110px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL2 {
+    list-style: none;
+    border-top: 1px rgb(209, 209, 209) solid;
+    padding-left: 37px;
+    position: relative;
+    top: 40px;
+    padding-top: 10px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL2 li {
+    margin-top: 10px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL2 li:hover {
+    color: #57C4F9;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL3 {
+    list-style: none;
+    padding-left: 37px;
+    position: relative;
+    left: 275px;
+    bottom: 425px;
+    padding-top: 30px;
+    height: 500px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    display: none;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL3 li {
+    margin-top: 10px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL3 li:hover {
+    color: #57C4F9;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL4 {
+    list-style: none;
+    padding-left: 37px;
+    position: relative;
+    left: 275px;
+    bottom: 425px;
+    padding-top: 30px;
+    height: 500px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+    display: none;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL4 li {
+    margin-top: 10px;
+}
+
+header nav .Part3 .SideBars .CategoriesBar .UL4 li:hover {
+    color: #57C4F9;
 }
 
 header nav .Part3 .SideBars .HomeBar {
-    background-color: blue;
+    background-color: white;
     width: 200px;
     height: 220px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    position: relative;
+    left: 350px;
+    display: none;
 }
 
 header nav .Part3 .SideBars .HomeBar ul {
@@ -504,6 +621,10 @@ header nav .Part3 .SideBars .HomeBar ul {
 
 header nav .Part3 .SideBars .HomeBar ul li {
     padding-top: 10px;
+}
+
+header nav .Part3 .SideBars .HomeBar ul li:hover {
+    color: #57C4F9;
 }
 
 /* ---------- Nav Part3 End ---------- */

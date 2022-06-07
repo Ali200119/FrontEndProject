@@ -134,10 +134,6 @@ Home.addEventListener ("mouseover", function () {
 
 Home.addEventListener ("mouseleave", function () {
     HomeBar.style.display = "none";
-
-    if (CategoriesBar.style.display == "none") {
-        CategoriesBar.style.display = "block";
-    }
 })
 
 HomeBar.addEventListener ("mouseover", function () {
@@ -149,10 +145,6 @@ HomeBar.addEventListener ("mouseover", function () {
 
 HomeBar.addEventListener ("mouseleave", function () {
     HomeBar.style.display = "none";
-
-    if (CategoriesBar.style.display == "none") {
-        CategoriesBar.style.display = "block";
-    }
 })
 
 /* ---------- Home SideBar End ---------- */
@@ -175,10 +167,6 @@ Shop.addEventListener ("mouseover", function () {
 
 Shop.addEventListener ("mouseleave", function () {
     ShopBar.style.display = "none";
-
-    if (CategoriesBar.style.display == "none") {
-        CategoriesBar.style.display = "block";
-    }
 })
 
 ShopBar.addEventListener ("mouseover", function () {
@@ -190,10 +178,6 @@ ShopBar.addEventListener ("mouseover", function () {
 
 ShopBar.addEventListener ("mouseleave", function () {
     ShopBar.style.display = "none";
-
-    if (CategoriesBar.style.display == "none") {
-        CategoriesBar.style.display = "block";
-    }
 })
 
 /* ---------- Shop SideBar End ---------- */

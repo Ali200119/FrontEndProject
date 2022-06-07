@@ -637,7 +637,8 @@ header nav .Part3 .ShopBar {
     font-size: 14px;
     font-family: TT Rounds Neue;
     display: none;
-    border: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: 1px rgb(209, 209, 209) solid;
 }
 
 header nav .Part3 .ShopBar .Flex {
@@ -846,10 +847,25 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 
 #Form .Submit {
     font-family: News Gothic Light;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1088px;
+    position: relative;
+    top: 120px;
+    left: 270px;
+}
+
+#Form .Submit .Left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 125px;
+    height: 115px;
 }
 
 #Form .Submit .Left .Remember {
-    border: 1px solid lime;
     display: flex;
     flex-wrap: wrap;
     width: 105px;
@@ -861,4 +877,151 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     font-weight: 100;
 }
 
+#Form .Submit .Left .Button input {
+    width: 80px;
+    height: 40px;
+    color: white;
+    background-color: #233A95;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#Form .Submit .Left .Lost a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #2BBEF9;
+}
+
+#Form .Submit .Left .Lost a:hover {
+    text-decoration: underline;
+    color: #0056B3;
+}
+
+#Form .Submit .Right {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 490px;
+    height: 90px;
+}
+
+#Form .Submit .Right .Privacy {
+    display: inline-block;
+}
+
+#Form .Submit .Right .Privacy h5 {
+    color: #3E445A;
+    font-weight: 100;
+}
+
+#Form .Submit .Right .Privacy a {
+    color: #ED174A;
+}
+
+#Form .Submit .Right .Button input {
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: #233A95;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
 /* ---------- Form End ---------- */
+
+
+
+/* ---------- Newsletter Start ---------- */
+
+#Newsletter {
+    height: 340px;
+    background-color: #233A95;
+}
+
+#Newsletter .Left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 520px;
+    height: 200px;
+    position: relative;
+    left: 310px;
+    top: 70px;
+}
+
+#Newsletter .Left .Title {
+    font-family: News Gothic Light;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+}
+
+#Newsletter .Left .Title h4 {
+    font-weight: 100;
+    color: white;
+}
+
+#Newsletter .Left .Title h2 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+#Newsletter .Left .Title h5 {
+    color: #919CCA;
+    width: 270px;
+    font-weight: 100;
+}
+
+#Newsletter .Left form .Letter {
+    color: #C2C2D3;
+    position: relative;
+    left: 20px;
+    top: 1px;
+    z-index: 1;
+}
+
+#Newsletter .Left form .Email {
+    height: 55px;
+    width: 400px;
+    padding-left: 45px;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+    right: 18px;
+}
+
+#Newsletter .Left form .Email::placeholder {
+    color: gray;
+}
+
+#Newsletter .Left form .Email:focus {
+    outline: none;
+}
+
+#Newsletter .Left form .Submit {
+    width: 90px;
+    height: 47px;
+    color: white;
+    background-color: #233A95;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    right: 118px;
+    cursor: pointer;
+}
+
+#Newsletter .Right {
+    position: relative;
+    left: 900px;
+    bottom: 137px;
+    display: inline-block;
+}

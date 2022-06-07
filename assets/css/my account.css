@@ -695,4 +695,170 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     height: 550px;
 }
 
+#Form .Link {
+    font-family: Barlow Semi Condensed;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 15px;
+}
+
+#Form .Link a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 7px;
+    margin-left: 268px;
+    color: #3E445A;
+}
+
+#Form .Link a:hover {
+    text-decoration: underline;
+}
+
+#Form .Link .Chevron {
+    font-size: 8px;
+    color: #717794;
+    padding-top: 4px;
+}
+
+#Form .Link .MyAccount {
+    color: #717794;
+    margin-left: 7px;
+}
+
+#Form .Title {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 70px;
+    height: 30px;
+    width: 1100px;
+    justify-content: space-between;
+    font-family: Barlow Semi Condensed;
+    left: 268px;
+}
+
+#Form .Title .Left {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    width: 500px;
+}
+
+#Form .Title .Right {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    width: 500px;
+}
+
+#Form .Email {
+    font-family: News Gothic Light;
+    color: #3E445A;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    justify-content: space-between;
+    position: relative;
+    top: 85px;
+    left: 268px;
+}
+
+#Form .Email .Left h5 {
+    padding-bottom: 13px;
+    font-weight: 100;
+}
+
+#Form .Email .Left input {
+    height: 35px;
+    width: 500px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 4px;
+}
+
+#Form .Email .Left input:focus {
+    outline: none;
+}
+
+#Form .Email .Right h5 {
+    padding-bottom: 13px;
+    font-weight: 100;
+}
+
+#Form .Email .Right input {
+    height: 35px;
+    width: 500px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 4px;
+}
+
+#Form .Email .Right input:focus {
+    outline: none;
+}
+
+#Form .Password {
+    font-family: News Gothic Light;
+    color: #3E445A;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1100px;
+    justify-content: space-between;
+    position: relative;
+    top: 105px;
+    left: 268px;
+}
+
+#Form .Password .Left h5 {
+    padding-bottom: 13px;
+    font-weight: 100;
+}
+
+#Form .Password .Left input {
+    height: 35px;
+    width: 500px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 4px;
+}
+
+#Form .Password .Left input:focus {
+    outline: none;
+}
+
+#Form .Password .Right h5 {
+    padding-bottom: 13px;
+    font-weight: 100;
+}
+
+#Form .Password .Right input {
+    height: 35px;
+    width: 500px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 4px;
+}
+
+#Form .Password .Right input:focus {
+    outline: none;
+}
+
+#Form .Submit {
+    font-family: News Gothic Light;
+}
+
+#Form .Submit .Left .Remember {
+    border: 1px solid lime;
+    display: flex;
+    flex-wrap: wrap;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Form .Submit .Left .Remember h5 {
+    font-weight: 100;
+}
+
 /* ---------- Form End ---------- */

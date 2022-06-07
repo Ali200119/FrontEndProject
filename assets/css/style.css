@@ -338,6 +338,11 @@ header nav .Part2 .Flex .Account {
     align-items: center;
 }
 
+header nav .Part2 .Flex .Account a {
+    display: inline-block;
+    text-decoration: none;
+}
+
 header nav .Part2 .Flex .Account span {
     position: relative;
     left: 6px;

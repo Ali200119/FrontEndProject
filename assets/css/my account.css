@@ -1025,3 +1025,113 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     bottom: 137px;
     display: inline-block;
 }
+
+/* ---------- Newsletter End ---------- */
+
+
+
+/* ---------- Prefooter Start ---------- */
+
+#Prefooter {
+    background-color: #F7F8FD;
+    height: 620px;
+}
+
+#Prefooter .Pluses {
+    font-family: News Gothic Light;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Prefooter .Pluses .Plus {
+    color: #3E445A;
+    height: 80px;
+    width: 285px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#Prefooter .Pluses .Plus .Icon {
+    font-size: larger;
+}
+
+#Prefooter .Pluses .Plus h5 {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Prefooter .Pluses .Plus1 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    border-right: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .Pluses .Plus2 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    border-right: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .Pluses .Plus3 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    border-right: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .Pluses .Plus4 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    top: 125px;
+}
+
+#Prefooter .List ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+#Prefooter .List .UL1 {
+    height: 200px;
+}
+
+#Prefooter .List .UL2 {
+    height: 250px;
+}
+
+#Prefooter .List .UL3 {
+    height: 280px;
+}
+
+#Prefooter .List .UL4 {
+    height: 280px;
+}
+
+#Prefooter .List .UL5 {
+    height: 250px;
+}
+
+#Prefooter .List ul li {
+    display: inline-block;
+    font-size: small;
+}
+
+#Prefooter .List ul li a {
+    text-decoration: none;
+    color: #71778E;
+    font-family: News Gothic Light;
+}
+
+#Prefooter .List ul .Title {
+    padding-bottom: 15px;
+    font-family: TT Rounds Neue;
+}

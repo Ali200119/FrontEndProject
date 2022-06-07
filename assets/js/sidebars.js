@@ -156,3 +156,44 @@ HomeBar.addEventListener ("mouseleave", function () {
 })
 
 /* ---------- Home SideBar End ---------- */
+
+
+
+/* ---------- Shop SideBar Start ---------- */
+
+let Shop = Home.nextElementSibling;
+let ShopBar = document.querySelector (".ShopBar");
+
+
+Shop.addEventListener ("mouseover", function () {
+    ShopBar.style.display = "block";
+
+    if (CategoriesBar.style.display == "block") {
+        CategoriesBar.style.display = "none";
+    }
+})
+
+Shop.addEventListener ("mouseleave", function () {
+    ShopBar.style.display = "none";
+
+    if (CategoriesBar.style.display == "none") {
+        CategoriesBar.style.display = "block";
+    }
+})
+
+ShopBar.addEventListener ("mouseover", function () {
+    ShopBar.style.display = "block";
+    if (CategoriesBar.style.display == "block") {
+        CategoriesBar.style.display = "none";
+    }
+})
+
+ShopBar.addEventListener ("mouseleave", function () {
+    ShopBar.style.display = "none";
+
+    if (CategoriesBar.style.display == "none") {
+        CategoriesBar.style.display = "block";
+    }
+})
+
+/* ---------- Shop SideBar End ---------- */

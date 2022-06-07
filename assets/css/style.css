@@ -627,6 +627,58 @@ header nav .Part3 .SideBars .HomeBar ul li:hover {
     color: #57C4F9;
 }
 
+header nav .Part3 .ShopBar {
+    background-color: white;
+    position: relative;
+    height: 330px;
+    width: 100%;
+    z-index: 1;
+    font-size: 14px;
+    font-family: TT Rounds Neue;
+    display: none;
+    border: white 1px solid;
+}
+
+header nav .Part3 .ShopBar .Flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1075px;
+    background-color: white;
+    position: relative;
+    margin: 30px auto;
+    right: 40px;
+}
+
+header nav .Part3 .ShopBar .Flex ul {
+    list-style: none;
+}
+
+header nav .Part3 .ShopBar .Flex ul li a {
+    text-decoration: none;
+    display: block;
+    color: #3E445A;
+    transition-duration: 250ms;
+    position: relative;
+    height: 30px;
+    padding-top: 5px;
+}
+
+header nav .Part3 .ShopBar .Flex ul li .Title {
+    color: #233A95;
+    font-size: 15px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 10px;
+}
+
+header nav .Part3 .ShopBar .Flex ul:hover .Title {
+    color: #2BBEF9;
+}
+
+header nav .Part3 .ShopBar .Flex ul li:hover a {
+    color: #2BBEF9;
+}
+
 /* ---------- Nav Part3 End ---------- */
 
 /* ---------- Header End ---------- */

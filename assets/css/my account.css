@@ -507,6 +507,9 @@ header nav .Part3 .SideBars .CategoriesBar {
     background-color: white;
     width: 275px;
     height: 500px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    border-left: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(209, 209, 209);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: none;
@@ -565,11 +568,14 @@ header nav .Part3 .SideBars .CategoriesBar .UL3 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 275px;
+    left: 274px;
     bottom: 425px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
+    border-right: 1px solid rgb(209, 209, 209);
+    border-left: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
     background-color: white;
     display: none;
 }
@@ -586,11 +592,14 @@ header nav .Part3 .SideBars .CategoriesBar .UL4 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 275px;
+    left: 274px;
     bottom: 425px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
+    border-right: 1px solid rgb(209, 209, 209);
+    border-left: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
     background-color: white;
     display: none;
 }
@@ -605,26 +614,36 @@ header nav .Part3 .SideBars .CategoriesBar .UL4 li:hover {
 
 header nav .Part3 .SideBars .HomeBar {
     background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     width: 200px;
     height: 220px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     position: relative;
     left: 350px;
+    bottom: 1px;
     display: none;
 }
 
 header nav .Part3 .SideBars .HomeBar ul {
     list-style: none;
-    padding-left: 30px;
     padding-top: 25px;
 }
 
 header nav .Part3 .SideBars .HomeBar ul li {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
-header nav .Part3 .SideBars .HomeBar ul li:hover {
+header nav .Part3 .SideBars .HomeBar ul li a {
+    color: #3E445A;
+    text-decoration: none;
+    transition-duration: 250ms;
+    display: block;
+    padding-left: 30px;
+}
+
+header nav .Part3 .SideBars .HomeBar ul li:hover a {
     color: #57C4F9;
 }
 
@@ -1142,5 +1161,110 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 
 /* ---------- Footer Start ---------- */
 
+footer {
+    border: #0056B3 1px solid;
+    height: 200px;
+    font-family: News Gothic Light;
+}
 
+footer .Part1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1210px;
+    margin: 0 auto;
+}
 
+footer .Part1 .Phone {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 55px;
+    justify-content: space-between;
+}
+
+footer .Part1 .Phone h3 {
+    padding-top: 7px;
+}
+
+footer .Part1 .Phone h6 {
+    color: #8F919A;
+    font-weight: 100;
+    position: relative;
+    left: 61px;
+    bottom: 18px;
+}
+
+footer .Download {
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    left: 225px;
+}
+
+footer .Download h6 {
+    color: #8F919A;
+    font-weight: 100;
+    padding-top: 3px;
+}
+
+footer .Part1 .Media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 370px;
+}
+
+footer .Part1 .Media .Store {
+    display: inline-block;
+}
+
+footer .Part1 .Media .Store img {
+    position: relative;
+    top: 2px;
+}
+
+footer .Part1 .Media .Social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 127px;
+}
+
+footer .Part1 .Media .Social a {
+    border-radius: 50%;
+}
+
+footer .Part1 .Media .Social .Icon {
+    color: #233A95;
+}
+
+footer .Part1 .Media .Social .Facebook {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 7px;
+    padding-left: 12px ;
+}
+
+footer .Part1 .Media .Social .Twitter {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 8px;
+    padding-left: 10px ;
+}
+
+footer .Part1 .Media .Social .Instagram {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 8px;
+    padding-left: 11px ;
+}
+
+/* ---------- Footer End ---------- */

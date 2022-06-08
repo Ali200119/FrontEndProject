@@ -512,6 +512,9 @@ header nav .Part3 .SideBars .CategoriesBar {
     background-color: white;
     width: 275px;
     height: 500px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    border-left: 1px solid rgb(209, 209, 209);
+    border-right: 1px solid rgb(209, 209, 209);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     display: none;
@@ -570,11 +573,14 @@ header nav .Part3 .SideBars .CategoriesBar .UL3 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 275px;
+    left: 274px;
     bottom: 425px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
+    border-right: 1px solid rgb(209, 209, 209);
+    border-left: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
     background-color: white;
     display: none;
 }
@@ -591,11 +597,14 @@ header nav .Part3 .SideBars .CategoriesBar .UL4 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 275px;
+    left: 274px;
     bottom: 425px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
+    border-right: 1px solid rgb(209, 209, 209);
+    border-left: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
     background-color: white;
     display: none;
 }
@@ -610,26 +619,36 @@ header nav .Part3 .SideBars .CategoriesBar .UL4 li:hover {
 
 header nav .Part3 .SideBars .HomeBar {
     background-color: white;
+    border: 1px solid rgb(209, 209, 209);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     width: 200px;
     height: 220px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     position: relative;
     left: 350px;
+    bottom: 1px;
     display: none;
 }
 
 header nav .Part3 .SideBars .HomeBar ul {
     list-style: none;
-    padding-left: 30px;
     padding-top: 25px;
 }
 
 header nav .Part3 .SideBars .HomeBar ul li {
-    padding-top: 10px;
+    margin-top: 10px;
 }
 
-header nav .Part3 .SideBars .HomeBar ul li:hover {
+header nav .Part3 .SideBars .HomeBar ul li a {
+    color: #3E445A;
+    text-decoration: none;
+    transition-duration: 250ms;
+    display: block;
+    padding-left: 30px;
+}
+
+header nav .Part3 .SideBars .HomeBar ul li:hover a {
     color: #57C4F9;
 }
 
@@ -642,7 +661,8 @@ header nav .Part3 .ShopBar {
     font-size: 14px;
     font-family: TT Rounds Neue;
     display: none;
-    border: white 1px solid;
+    border-top: white 1px solid;
+    border-bottom: 1px rgb(209, 209, 209) solid;
 }
 
 header nav .Part3 .ShopBar .Flex {

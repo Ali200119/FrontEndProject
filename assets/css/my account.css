@@ -1162,7 +1162,6 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Footer Start ---------- */
 
 footer {
-    border: #0056B3 1px solid;
     height: 200px;
     font-family: News Gothic Light;
 }
@@ -1265,6 +1264,46 @@ footer .Part1 .Media .Social .Instagram {
     border: 1px solid rgb(209, 209, 209);
     padding-top: 8px;
     padding-left: 11px ;
+}
+
+footer .Part2 {
+    border-top: 1px solid rgb(209, 209, 209);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1230px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+}
+
+footer .Part2 .Copyright {
+    color: #8F919A;
+    display: inline-block;
+}
+
+footer .Part2 .Policy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 270px;
+    position: relative;
+    left: 45px;
+}
+
+footer .Part2 .Policy a {
+    text-decoration: none;
+    color: #8F919A;
+}
+
+footer .Part2 .Policy a:hover {
+    text-decoration: underline;
+}
+
+footer .Part2 .Payment {
+    display: inline-block;
 }
 
 /* ---------- Footer End ---------- */

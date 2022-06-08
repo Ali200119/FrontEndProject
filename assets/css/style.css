@@ -708,3 +708,30 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Nav Part3 End ---------- */
 
 /* ---------- Header End ---------- */
+
+
+
+/* ---------- Suuggestions Start ---------- */
+
+
+
+/* ---------- Suuggestions End ---------- */
+
+#Suggestions {
+    height: 580px;
+    width: 100%;
+    border: 1px solid rgb(209, 209, 209);
+    position: relative;
+    top: 40px;
+    background-color: #233A95;
+}
+
+#Suggestions .Images {
+    width: 200%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#Suggestions .Images .Item a {
+    display: inline-block;
+}

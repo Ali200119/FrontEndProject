@@ -718,20 +718,54 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Suuggestions End ---------- */
 
 #Suggestions {
-    height: 580px;
+    height: 573px;
     width: 100%;
-    border: 1px solid rgb(209, 209, 209);
+    border-top: 1px solid rgb(209, 209, 209);
     position: relative;
     top: 40px;
     background-color: #233A95;
+    overflow: hidden;
 }
 
 #Suggestions .Images {
     width: 200%;
     height: 100%;
-    overflow: hidden;
+    display: flex;
+}
+
+#Suggestions .Images .Item {
+    height: 100%;
+    width: 50%;
 }
 
 #Suggestions .Images .Item a {
     display: inline-block;
+}
+
+#Suggestions .Left {
+    position: absolute;
+    color: #202435;
+    top: 50%;
+    left: 70px;
+    cursor: pointer;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+#Suggestions .Right {
+    position: absolute;
+    color: #202435;
+    top: 50%;
+    right: 70px;
+    cursor: pointer;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding-left: 15px;
+    padding-top: 12px;
 }

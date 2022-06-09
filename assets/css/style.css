@@ -19,6 +19,16 @@
     src: url("/assets/fonts/TT\ Rounds\ Neue.ttf");
 }
 
+@font-face {
+    font-family: DexaPro;
+    src: url("/assets/fonts/DexaPro.ttf");
+}
+
+@font-face {
+    font-family: Endurance W01 Cond;
+    src: url("/assets/fonts/Endurance\ W01\ Cond.ttf");
+}
+
 /* ---------- Header Start ---------- */
 
 header #Covid-19 {
@@ -713,17 +723,12 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 
 /* ---------- Suuggestions Start ---------- */
 
-
-
-/* ---------- Suuggestions End ---------- */
-
 #Suggestions {
-    height: 573px;
+    height: 529px;
     width: 100%;
     border-top: 1px solid rgb(209, 209, 209);
     position: relative;
     top: 40px;
-    background-color: #233A95;
     overflow: hidden;
 }
 
@@ -738,6 +743,11 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     width: 50%;
 }
 
+#Suggestions .Images .Item img {
+    width: 100%;
+    height: 100%;
+}
+
 #Suggestions .Images .Item a {
     display: inline-block;
 }
@@ -746,7 +756,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: absolute;
     color: #202435;
     top: 50%;
-    left: 70px;
+    left: 50px;
     cursor: pointer;
     background-color: white;
     width: 40px;
@@ -760,7 +770,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: absolute;
     color: #202435;
     top: 50%;
-    right: 70px;
+    right: 50px;
     cursor: pointer;
     background-color: white;
     width: 40px;
@@ -769,3 +779,211 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     padding-left: 15px;
     padding-top: 12px;
 }
+
+/* ---------- Suuggestions End ---------- */
+
+
+
+/* ---------- Products Start ---------- */
+
+#Products {
+    height: 1600px;
+    position: relative;
+    top: 70px;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+/* ---------- Products Part1 Start ---------- */
+
+#Products .Part1 {
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 5px;
+    height: 295px;
+}
+
+#Products .Part1 .Card1 {
+    border-right: 1px solid rgb(209, 209, 209);
+    width: 235px;
+    height: 100%;
+}
+
+#Products .Part1 .Card1 .Image {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+#Products .Part1 .Card1 .Title {
+    display: inline-block;
+    text-decoration: none;
+    color: #3E445A;
+    font-family: DexaPro;
+    font-weight: lighter;
+    display: inline-block;
+    position: relative;
+    top: 35px;
+    left: 83px;
+}
+
+#Products .Part1 .Card1 h6 {
+    font-family: Endurance W01 Cond;
+    font-size: 12px;
+    font-weight: lighter;
+    position: relative;
+    top: 60px;
+    left: 25px;
+    display: inline-block;
+}
+
+#Products .Part1 .Card2 {
+    position: relative;
+    height: 295px;
+    width: 934px;
+    left: 235px;
+    bottom: 294px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#Products .Part1 .Card2 .Card {
+    width: 25%;
+    height: 50%;
+}
+
+#Products .Part1 .Card2 .Product1 {
+    border-right: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part1 .Card2 .Product2 {
+    border-right: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part1 .Card2 .Product3 {
+    border-right: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part1 .Card2 .Product4 {
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part1 .Card2 .Product5 {
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part1 .Card2 .Product6 {
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part1 .Card2 .Product7 {
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+
+#Products .Part1 .Card2 .Card .Image {
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+#Products .Part1 .Card2 .Card .Title {
+    font-family: DexaPro;
+    font-weight: lighter;
+    display: inline-block;
+    text-decoration: none;
+    color: #3E445A;
+    position: relative;
+    left: 30px;
+}
+
+#Products .Part1 .Card2 .Card .Title1 {
+    width: 70px;
+}
+
+#Products .Part1 .Card2 .Card .Title2 {
+    bottom: 12px;
+}
+
+#Products .Part1 .Card2 .Card .Title3 {
+    width: 78px;
+}
+
+#Products .Part1 .Card2 .Card .Title4 {
+    bottom: 12px;
+}
+
+#Products .Part1 .Card2 .Card .Title5 {
+    width: 75px;
+}
+
+#Products .Part1 .Card2 .Card .Title6 {
+    width: 68px;
+}
+
+#Products .Part1 .Card2 .Card .Title7 {
+    width: 72px;
+}
+
+#Products .Part1 .Card2 .Card .Title8 {
+    border: 1px solid;
+    width: 57px;
+}
+
+#Products .Part1 .Card2 .Card .Text {
+    font-family: Endurance W01 Cond;
+    font-size: 12px;
+    font-weight: lighter;
+    position: relative;
+    display: inline-block;
+}
+
+#Products .Part1 .Card2 .Card .Text1 {
+    top: 25px;
+    right: 43px;
+}
+
+#Products .Part1 .Card2 .Card .Text2 {
+    top: 14px;
+    right: 43px;
+}
+
+#Products .Part1 .Card2 .Card .Text3 {
+    top: 24px;
+    right: 50px;
+}
+
+#Products .Part1 .Card2 .Card .Text4 {
+    top: 15px;
+    right: 60px;
+}
+
+#Products .Part1 .Card2 .Card .Text5 {
+    top: 25px;
+    right: 48px;
+}
+
+#Products .Part1 .Card2 .Card .Text6 {
+    top: 25px;
+    right: 41px;
+}
+
+#Products .Part1 .Card2 .Card .Text7 {
+    top: 25px;
+    right: 45px;
+}
+
+#Products .Part1 .Card2 .Card .Text8 {
+    top: 25px;
+    right: 30px;
+}
+
+
+
+/* ---------- Products End ---------- */
+
+/* ---------- Products Part1 ENd ---------- */

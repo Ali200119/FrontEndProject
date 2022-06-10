@@ -19,6 +19,16 @@
     src: url("/assets/fonts/TT\ Rounds\ Neue.ttf");
 }
 
+@font-face {
+    font-family: DexaPro;
+    src: url("/assets/fonts/DexaPro.ttf");
+}
+
+@font-face {
+    font-family: Endurance W01 Cond;
+    src: url("/assets/fonts/Endurance\ W01\ Cond.ttf");
+}
+
 /* ---------- Header Start ---------- */
 
 header #Covid-19 {
@@ -983,7 +993,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     border: 2px solid #ED174A;
     border-radius: 5px;
     width: 380px;
-    height: 790px;
+    height: 800px;
     font-family: DexaPro;
 }
 
@@ -1152,6 +1162,25 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 .Countdown .Rating span {
     color: #3E445A;
     font-size: 11px;
+}
+
+#Products .Part2 .Countdown .Count {
+    font-family: Barlow Semi Condensed;
+    width: fit-content;
+    position: relative;
+    left: 279px;
+    top: 140px;
+}
+
+#Products .Part2 .Countdown .Count h5 {
+    color: #C2C5DF;
+    display: inline-block;
+    font-size: 12px;
+}
+
+#Products .Part2 .Countdown .Count span {
+    color: #233A95;
+    font-weight: bold;
 }
 
 #Products .Part2 .Countdown .Line {

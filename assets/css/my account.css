@@ -1173,6 +1173,8 @@ footer .Part1 {
     align-items: center;
     width: 1210px;
     margin: 0 auto;
+    position: relative;
+    top: 25px;
 }
 
 footer .Part1 .Phone {
@@ -1183,8 +1185,23 @@ footer .Part1 .Phone {
     justify-content: space-between;
 }
 
+footer .Part1 .Phone i {
+    width: 45px;
+    height: 45px;
+    color: #3E445A;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-left: 14px;
+    padding-top: 12px;
+    font-size: large;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 6px;
+}
+
 footer .Part1 .Phone h3 {
     padding-top: 7px;
+    color: #3E445A;
 }
 
 footer .Part1 .Phone h6 {
@@ -1192,7 +1209,7 @@ footer .Part1 .Phone h6 {
     font-weight: 100;
     position: relative;
     left: 61px;
-    bottom: 18px;
+    bottom: 8px;
 }
 
 footer .Download {
@@ -1276,7 +1293,7 @@ footer .Part2 {
     height: 80px;
     margin: 0 auto;
     position: relative;
-    top: 40px;
+    top: 60px;
 }
 
 footer .Part2 .Copyright {

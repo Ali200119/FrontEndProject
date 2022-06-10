@@ -1142,17 +1142,32 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Products .Part2 .Countdown .Rating {
-    display: inline-block;
     position: relative;
-    top: 105px;
-    right: 60px;
+    top: 85px;
+    left: 25px;
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Countdown .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80px;
+}
+
+#Products .Part2 .Countdown .Rating .Stars i {
+    color: #FFCD00;
+    font-size: 12px;
 }
 
 #Products .Part2 .Countdown .Rating span {
     color: #3E445A;
     font-size: 12px;
+    bottom: 1px;
     position: relative;
-    bottom: 3px;
 }
 
 /* ---------- Products Part2 End ---------- */

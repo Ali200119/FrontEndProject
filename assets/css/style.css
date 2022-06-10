@@ -984,9 +984,13 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Products Part2 Start ---------- */
 
 #Products .Part2 {
-    height: 775px;
     position: relative;
     top: 50px;
+    border: 1px solid lime;
+    height: 830px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #Products .Part2 .Countdown {
@@ -1198,6 +1202,36 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     height: 100%;
     border-radius: 30px;
     background-image: linear-gradient(to right, #D61443, #FFCC02);
+}
+
+#Products .Part2 .Cards {
+    border: 1px solid rgb(209, 209, 209);
+    width: 750px;
+    border-radius: 5px;
+}
+
+#Products .Part2 .Cards .Card {
+    width: 250px;
+    height: 50%;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part2 .Cards .Card .Image {
+    border: 1px solid;
+    width: fit-content;
+}
+
+#Products .Part2 .Cards .Card .Image a {
+    display: inline-block;
+}
+
+#Products .Part2 .Cards .Card .Image a .Discount {
+    font-family: TT Rounds Neue;
+}
+
+#Products .Part2 .Cards .Card .Image a img {
+    width: 209px;
+    height: 187px;
 }
 
 /* ---------- Products Part2 End ---------- */

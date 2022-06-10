@@ -19,16 +19,6 @@
     src: url("/assets/fonts/TT\ Rounds\ Neue.ttf");
 }
 
-@font-face {
-    font-family: DexaPro;
-    src: url("/assets/fonts/DexaPro.ttf");
-}
-
-@font-face {
-    font-family: Endurance W01 Cond;
-    src: url("/assets/fonts/Endurance\ W01\ Cond.ttf");
-}
-
 /* ---------- Header Start ---------- */
 
 header #Covid-19 {
@@ -348,11 +338,6 @@ header nav .Part2 .Flex .Account {
     align-items: center;
 }
 
-header nav .Part2 .Flex .Account a {
-    display: inline-block;
-    text-decoration: none;
-}
-
 header nav .Part2 .Flex .Account span {
     position: relative;
     left: 6px;
@@ -406,7 +391,7 @@ header nav .Part3 .Flex {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1198px;
-    margin-left: 266px;
+    margin-left: 350px;
     font-family: Barlow Semi Condensed;
 }
 
@@ -508,7 +493,7 @@ header nav .Part3 .SideBars {
     justify-content: space-between;
     width: 580px;
     position: relative;
-    left: 270px;
+    left: 354px;
     top: 1px;
 }
 
@@ -583,8 +568,8 @@ header nav .Part3 .SideBars .CategoriesBar .UL3 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 274px;
-    bottom: 425px;
+    left: 273px;
+    bottom: 435px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
@@ -607,8 +592,8 @@ header nav .Part3 .SideBars .CategoriesBar .UL4 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 274px;
-    bottom: 425px;
+    left: 273px;
+    bottom: 435px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
@@ -997,8 +982,8 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 .Countdown {
     border: 2px solid #ED174A;
     border-radius: 5px;
-    width: 370px;
-    height: 760px;
+    width: 380px;
+    height: 790px;
     font-family: DexaPro;
 }
 
@@ -1057,7 +1042,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 .Countdown .Image {
     display: inline-block;
     position: relative;
-    left: 7px;
+    left: 10px;
     top: 45px;
 }
 
@@ -1125,8 +1110,8 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 .Countdown .Availability {
     display: inline-block;
     position: relative;
-    left: 25px;
-    top: 75px;
+    right: 272px;
+    top: 100px;
 }
 
 #Products .Part2 .Countdown .Availability .Weight {
@@ -1139,13 +1124,14 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     font-size: 12px;
     color: #00B853;
     padding-left: 5px;
+    font-weight: bold;
 }
 
 #Products .Part2 .Countdown .Rating {
     position: relative;
-    top: 85px;
+    top: 110px;
     left: 25px;
-    width: 95px;
+    width: 83px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1155,19 +1141,34 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 80px;
+    width: 70px;
 }
 
 #Products .Part2 .Countdown .Rating .Stars i {
     color: #FFCD00;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 #Products .Part2 .Countdown .Rating span {
     color: #3E445A;
-    font-size: 12px;
-    bottom: 1px;
+    font-size: 11px;
+}
+
+#Products .Part2 .Countdown .Line {
+    height: 12px;
+    width: 330px;
+    background-color: #EDEEF5;
+    border-radius: 30px;
     position: relative;
+    left: 25px;
+    top: 150px;
+}
+
+#Products .Part2 .Countdown .Line .Color {
+    width: 300px;
+    height: 100%;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #D61443, #FFCC02);
 }
 
 /* ---------- Products Part2 End ---------- */

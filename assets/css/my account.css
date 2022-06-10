@@ -391,7 +391,7 @@ header nav .Part3 .Flex {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 1198px;
-    margin-left: 266px;
+    margin-left: 350px;
     font-family: Barlow Semi Condensed;
 }
 
@@ -493,7 +493,7 @@ header nav .Part3 .SideBars {
     justify-content: space-between;
     width: 580px;
     position: relative;
-    left: 270px;
+    left: 354px;
     top: 1px;
 }
 
@@ -568,8 +568,8 @@ header nav .Part3 .SideBars .CategoriesBar .UL3 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 274px;
-    bottom: 425px;
+    left: 273px;
+    bottom: 435px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
@@ -592,8 +592,8 @@ header nav .Part3 .SideBars .CategoriesBar .UL4 {
     list-style: none;
     padding-left: 37px;
     position: relative;
-    left: 274px;
-    bottom: 425px;
+    left: 273px;
+    bottom: 435px;
     padding-top: 30px;
     height: 500px;
     border-bottom-right-radius: 5px;
@@ -712,179 +712,114 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     border-top: 1px rgb(209, 209, 209) solid;
     position: relative;
     top: 40px;
-    height: 550px;
+    height: 580px;
 }
 
 #Form .Link {
-    font-family: Barlow Semi Condensed;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 110px;
+    font-family: Barlow Semi Condensed;
+    font-size: 17px;
+    align-items: center;
     position: relative;
     top: 15px;
+    left: 350px;
 }
 
-#Form .Link a {
+#Form .Link .Home {
     text-decoration: none;
-    display: inline-block;
-    margin-right: 7px;
-    margin-left: 268px;
     color: #3E445A;
 }
 
-#Form .Link a:hover {
+#Form .Link .Home:hover {
     text-decoration: underline;
 }
 
-#Form .Link .Chevron {
-    font-size: 8px;
-    color: #717794;
-    padding-top: 4px;
+#Form .Link i {
+    font-size: x-small;
+    color: #9B9BB4;
 }
 
 #Form .Link .MyAccount {
-    color: #717794;
-    margin-left: 7px;
+    color: #9B9BB4;
 }
 
-#Form .Title {
+#Form .Flex {
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
     position: relative;
     top: 70px;
-    height: 30px;
-    width: 1100px;
-    justify-content: space-between;
-    font-family: Barlow Semi Condensed;
-    left: 268px;
 }
 
-#Form .Title .Left {
-    border-bottom: 1px rgb(209, 209, 209) solid;
-    width: 500px;
-}
-
-#Form .Title .Right {
-    border-bottom: 1px rgb(209, 209, 209) solid;
-    width: 500px;
-}
-
-#Form .Email {
-    font-family: News Gothic Light;
-    color: #3E445A;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1100px;
-    justify-content: space-between;
-    position: relative;
-    top: 85px;
-    left: 268px;
-}
-
-#Form .Email .Left h5 {
-    padding-bottom: 13px;
-    font-weight: 100;
-}
-
-#Form .Email .Left input {
-    height: 35px;
-    width: 500px;
-    background-color: #F3F4F7;
-    padding-left: 15px;
-    border: 0;
-    border-radius: 4px;
-}
-
-#Form .Email .Left input:focus {
-    outline: none;
-}
-
-#Form .Email .Right h5 {
-    padding-bottom: 13px;
-    font-weight: 100;
-}
-
-#Form .Email .Right input {
-    height: 35px;
-    width: 500px;
-    background-color: #F3F4F7;
-    padding-left: 15px;
-    border: 0;
-    border-radius: 4px;
-}
-
-#Form .Email .Right input:focus {
-    outline: none;
-}
-
-#Form .Password {
-    font-family: News Gothic Light;
-    color: #3E445A;
-    display: flex;
-    flex-wrap: wrap;
-    width: 1100px;
-    justify-content: space-between;
-    position: relative;
-    top: 105px;
-    left: 268px;
-}
-
-#Form .Password .Left h5 {
-    padding-bottom: 13px;
-    font-weight: 100;
-}
-
-#Form .Password .Left input {
-    height: 35px;
-    width: 500px;
-    background-color: #F3F4F7;
-    padding-left: 15px;
-    border: 0;
-    border-radius: 4px;
-}
-
-#Form .Password .Left input:focus {
-    outline: none;
-}
-
-#Form .Password .Right h5 {
-    padding-bottom: 13px;
-    font-weight: 100;
-}
-
-#Form .Password .Right input {
-    height: 35px;
-    width: 500px;
-    background-color: #F3F4F7;
-    padding-left: 15px;
-    border: 0;
-    border-radius: 4px;
-}
-
-#Form .Password .Right input:focus {
-    outline: none;
-}
-
-#Form .Submit {
-    font-family: News Gothic Light;
+#Form .Login {
+    width: 585px;
+    height: 340px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1088px;
-    position: relative;
-    top: 120px;
-    left: 270px;
-}
-
-#Form .Submit .Left {
-    display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-between;
-    width: 125px;
-    height: 115px;
 }
 
-#Form .Submit .Left .Remember {
+#Form .Login .Title {
+    border-bottom: 1px solid rgb(209, 209, 209);
+    height: 35px;
+}
+
+#Form .Login .Title h4 {
+    font-family: Barlow Semi Condensed;
+    color: #202435;
+}
+
+#Form .Login .Email {
+    display: inline-block;
+}
+
+#Form .Login .Email h5 {
+    font-family: News Gothic Light;
+    font-weight: lighter;
+    color: #202435;
+}
+
+#Form .Login .EmailInput {
+    height: 45px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#Form .Login .EmailInput:focus {
+    outline: none;
+}
+
+#Form .Login .Password {
+    display: inline-block;
+}
+
+#Form .Login .Password h5 {
+    font-family: News Gothic Light;
+    font-weight: lighter;
+    color: #202435;
+}
+
+#Form .Login .PasswordInput {
+    height: 45px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#Form .Login .PasswordInput:focus {
+    outline: none;
+}
+
+#Form .Login .Remember {
     display: flex;
     flex-wrap: wrap;
     width: 105px;
@@ -892,63 +827,128 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     align-items: center;
 }
 
-#Form .Submit .Left .Remember h5 {
-    font-weight: 100;
+#Form .Login .Remember h5 {
+    font-family: News Gothic Light;
+    font-weight: lighter;
+    color: #202435;
 }
 
-#Form .Submit .Left .Button input {
+#Form .Login .Submit {
     width: 80px;
     height: 40px;
-    color: white;
     background-color: #233A95;
     border: 0;
     border-radius: 5px;
+    color: white;
+    font-family: TT Rounds Neue;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 15px;
 }
 
-#Form .Submit .Left .Lost a {
-    font-size: 14px;
-    text-decoration: none;
+#Form .Login .Lost {
+    width: fit-content;
+}
+
+#Form .Login .Lost a {
     color: #2BBEF9;
+    text-decoration: none;
+    display: inline-block;
+    font-family: News Gothic Light;
+    color: #202435;
 }
 
-#Form .Submit .Left .Lost a:hover {
+#Form .Login .Lost:hover a {
+    color: #233A95;
     text-decoration: underline;
-    color: #0056B3;
 }
 
-#Form .Submit .Right {
+#Form .Register {
+    width: 585px;
+    height: 323px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     justify-content: space-between;
-    width: 490px;
-    height: 90px;
+    flex-direction: column;
 }
 
-#Form .Submit .Right .Privacy {
+#Form .Register .Title {
+    border-bottom: 1px solid rgb(209, 209, 209);
+    height: 35px;
+}
+
+#Form .Register .Title h4 {
+    font-family: Barlow Semi Condensed;
+    color: #202435;
+}
+
+#Form .Register .Email {
     display: inline-block;
 }
 
-#Form .Submit .Right .Privacy h5 {
-    color: #3E445A;
-    font-weight: 100;
+#Form .Register .Email h5 {
+    font-family: News Gothic Light;
+    font-weight: lighter;
+    color: #202435;
 }
 
-#Form .Submit .Right .Privacy a {
+#Form .Register .EmailInput {
+    height: 45px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#Form .Register .EmailInput:focus {
+    outline: none;
+}
+
+#Form .Register .Password {
+    display: inline-block;
+}
+
+#Form .Register .Password h5 {
+    font-family: News Gothic Light;
+    font-weight: lighter;
+    color: #202435;
+}
+
+#Form .Register .PasswordInput {
+    height: 45px;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 5px;
+}
+
+#Form .Register .PasswordInput:focus {
+    outline: none;
+}
+
+#Form .Register .Privacy {
+    width: 485px;
+}
+
+#Form .Register .Privacy h5 {
+    font-family: News Gothic Light;
+    font-weight: lighter;
+    color: #202435;
+}
+
+#Form .Register .Privacy h5 a {
     color: #ED174A;
 }
 
-#Form .Submit .Right .Button input {
+#Form .Register .Submit {
     width: 100px;
     height: 40px;
-    color: white;
     background-color: #233A95;
     border: 0;
     border-radius: 5px;
+    color: white;
+    font-family: TT Rounds Neue;
+    font-size: 16px;
     cursor: pointer;
-    font-size: 15px;
 }
 
 /* ---------- Form End ---------- */

@@ -262,71 +262,66 @@
 
     <section id="Form">
         <div class="Link">
-            <a href="/index.html"><h6 class="Home">HOME</h6></a>
-            <i class="fa-solid fa-chevron-right Chevron"></i>
+            <a class="Home" href="/index.html"><h6>HOME</h6></a>
+            <i class="fa-solid fa-chevron-right"></i>
             <h6 class="MyAccount">MY ACCOUNT</h6>
         </div>
 
-        <div class="Title">
-            <div class="Left">
-                <h4>LOGIN</h4>
-            </div>
+        <div class="Flex">
+            <form class="Login" method="post">
+                <div class="Title">
+                    <h4>LOGIN</h4>
+                </div>
+    
+                <div class="Email">
+                    <h5>Username or email address *</h5>
+                </div>
+    
+                <input class="EmailInput" type="text">
 
-            <div class="Right">
-                <h4>REGISTER</h4>
-            </div>
-        </div>
+                <div class="Password">
+                    <h5>Password *</h5>
+                </div>
 
-        <div class="Email">
-            <div class="Left">
-                <h5>Username or email address *</h5>
-                <input type="text">
-            </div>
+                <input class="PasswordInput" type="password">
 
-            <div class="Right">
-                <h5>Email address *</h5>
-                <input type="email">
-            </div>
-        </div>
-
-        <div class="Password">
-            <div class="Left">
-                <h5>Password *</h5>
-                <input type="password">
-            </div>
-
-            <div class="Right">
-                <h5>Password *</h5>
-                <input type="password">
-            </div>
-        </div>
-
-        <div class="Submit">
-            <div class="Left">
                 <div class="Remember">
                     <input type="checkbox">
                     <h5>Remember me</h5>
                 </div>
 
-                <div class="Button">
-                    <input type="submit" value="Log in">
-                </div>
+                <input class="Submit" type="reset" value="Log in">
 
                 <div class="Lost">
                     <a href="">Lost your password?</a>
                 </div>
-            </div>
+            </form>
+    
+            <form class="Register" method="post">
+                <div class="Title">
+                    <h4>REGISTER</h4>
+                </div>
+    
+                <div class="Email">
+                    <h5>Email address *</h5>
+                </div>
+    
+                <input class="EmailInput" type="email">
 
-            <div class="Right">
+                <div class="Password">
+                    <h5>Password *</h5>
+                </div>
+
+                <input class="PasswordInput" type="password">
+
                 <div class="Privacy">
-                    <h5>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="">privacy policy.</a></h5>
+                    <h5>Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our <a href="">privacy policy</a>.</h5>
                 </div>
 
-                <div class="Button">
-                    <input type="submit" value="Register">
-                </div>
-            </div>
+                <input class="Submit" type="reset" value="Register">
+            </form>
         </div>
+
     </section>
     
     <section id="Newsletter">

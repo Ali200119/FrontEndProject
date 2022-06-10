@@ -792,6 +792,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     top: 70px;
     width: 1170px;
     margin: 0 auto;
+    border: 1px solid;
 }
 
 /* ---------- Products Part1 Start ---------- */
@@ -981,6 +982,179 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     right: 30px;
 }
 
-/* ---------- Products Part1 Edd ---------- */
+/* ---------- Products Part1 End ---------- */
+
+
+
+/* ---------- Products Part2 Start ---------- */
+
+#Products .Part2 {
+    height: 775px;
+    position: relative;
+    top: 50px;
+}
+
+#Products .Part2 .Countdown {
+    border: 2px solid #ED174A;
+    border-radius: 5px;
+    width: 370px;
+    height: 760px;
+    font-family: DexaPro;
+}
+
+#Products .Part2 .Countdown .Title {
+    display: inline-block;
+    color: #233A95;
+    position: relative;
+    left: 25px;
+    top: 30px;
+}
+
+#Products .Part2 .Countdown .Title h3 {
+    display: inline-block;
+    font-weight: lighter;
+}
+
+#Products .Part2 .Countdown .Title span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#Products .Part2 .Countdown .Time {
+    width: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 25px;
+    top: 35px;
+}
+
+#Products .Part2 .Countdown .Time .Border {
+    background-color: #ED174A;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    width: 45px;
+    height: 45px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+#Products .Part2 .Countdown .Warning {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 45px;
+}
+
+#Products .Part2 .Countdown .Warning h6 {
+    color: #C2C5DF;
+    font-weight: lighter;
+}
+
+#Products .Part2 .Countdown .Image {
+    display: inline-block;
+    position: relative;
+    left: 7px;
+    top: 45px;
+}
+
+#Products .Part2 .Countdown .Image h2 {
+    color: white;
+    background-color: #ED174A;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: lighter;
+    width: 70px;
+    height: 70px;
+    padding-top: 20px;
+    position: relative;
+    left: 15px;
+    top: 80px;
+}
+
+#Products .Part2 .Countdown .Image a {
+    display: inline-block;
+}
+
+#Products .Part2 .Countdown .Price {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 55px;
+}
+
+#Products .Part2 .Countdown .Price .Previous {
+    text-decoration: line-through;
+    font-size: 16px;
+    color: #C2C5DF;
+}
+
+#Products .Part2 .Countdown .Price .New {
+    padding-left: 7px;
+    color: #D51243;
+    font-size: 19px;
+}
+
+#Products .Part2 .Countdown .Name {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 70px;
+    width: 295px;
+    transition-delay: 250ms;
+}
+
+#Products .Part2 .Countdown .Name a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#Products .Part2 .Countdown .Name a h3 {
+    transition-duration: 250ms;
+    color: #202435;
+    font-weight: lighter;
+}
+
+#Products .Part2 .Countdown .Name a:hover h3 {
+    color: #233A95;
+}
+
+#Products .Part2 .Countdown .Availability {
+    display: inline-block;
+    position: relative;
+    left: 25px;
+    top: 75px;
+}
+
+#Products .Part2 .Countdown .Availability .Weight {
+    color: #C2C5DF;
+    font-size: 12px;
+}
+
+#Products .Part2 .Countdown .Availability .Stock {
+    font-family: TT Rounds Neue;
+    font-size: 12px;
+    color: #00B853;
+    padding-left: 5px;
+}
+
+#Products .Part2 .Countdown .Rating {
+    display: inline-block;
+    position: relative;
+    top: 105px;
+    right: 60px;
+}
+
+#Products .Part2 .Countdown .Rating span {
+    color: #3E445A;
+    font-size: 12px;
+    position: relative;
+    bottom: 3px;
+}
+
+/* ---------- Products Part2 End ---------- */
 
 /* ---------- Products End ---------- */

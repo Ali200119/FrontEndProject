@@ -987,7 +987,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: relative;
     top: 50px;
     border: 1px solid lime;
-    height: 830px;
+    height: 920px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1028,13 +1028,14 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: relative;
     left: 25px;
     top: 35px;
+    font-family: TT Rounds Neue;
 }
 
 #Products .Part2 .Countdown .Time .Border {
     background-color: #ED174A;
     border-radius: 5px;
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     width: 45px;
     height: 45px;
     padding-left: 12px;
@@ -1058,6 +1059,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: relative;
     left: 10px;
     top: 45px;
+    font-family: TT Rounds Neue;
 }
 
 #Products .Part2 .Countdown .Image h2 {
@@ -1083,18 +1085,19 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: relative;
     left: 25px;
     top: 55px;
+    font-family: TT Rounds Neue;
 }
 
 #Products .Part2 .Countdown .Price .Previous {
     text-decoration: line-through;
-    font-size: 16px;
+    font-size: 20px;
     color: #C2C5DF;
 }
 
 #Products .Part2 .Countdown .Price .New {
     padding-left: 7px;
     color: #D51243;
-    font-size: 19px;
+    font-size: 23px;
 }
 
 #Products .Part2 .Countdown .Name {
@@ -1166,6 +1169,8 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 .Countdown .Rating span {
     color: #3E445A;
     font-size: 11px;
+    position: relative;
+    bottom: 1px;
 }
 
 #Products .Part2 .Countdown .Count {
@@ -1208,30 +1213,568 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     border: 1px solid rgb(209, 209, 209);
     width: 750px;
     border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #Products .Part2 .Cards .Card {
-    width: 250px;
+    width: 249px;
     height: 50%;
-    border: 1px solid rgb(209, 209, 209);
+    font-family: TT Rounds Neue;
+    transition-duration: 250ms;
+    overflow: hidden;
+    position: relative;
+    background-color: white;
 }
 
 #Products .Part2 .Cards .Card .Image {
-    border: 1px solid;
     width: fit-content;
+    position: relative;
+    left: 18px;
 }
 
 #Products .Part2 .Cards .Card .Image a {
     display: inline-block;
+    text-decoration: none;
 }
 
 #Products .Part2 .Cards .Card .Image a .Discount {
+    width: 40px;
+    height: 20px;
+    border-radius: 4px;
+    color: white;
+    background-color: #2BBEF9;
+    text-align: center;
+    padding-top: 3px;
+    font-weight: lighter;
+    position: relative;
+    top: 15px;
+}
+
+#Products .Part2 .Cards .Card .Name a {
+    text-decoration: none;
+    color: #202435;
+    font-family: DexaPro;
+    display: inline-block;
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card .Name a:hover {
+    color: #233A95;
+}
+
+#Products .Part2 .Cards .Card .Name a h4 {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+#Products .Part2 .Cards .Card .Stock {
+    font-size: 12px;
+    color: #00B853;
+    font-weight: bold;
+    width: fit-content;
+    position: relative;
+    left: 18px;
+}
+
+#Products .Part2 .Cards .Card .Price {
+    display: inline-block;
+    position: relative;
+    left: 18px;
     font-family: TT Rounds Neue;
+}
+
+#Products .Part2 .Cards .Card .Price .Previous {
+    text-decoration: line-through;
+    font-size: 15px;
+    color: #C2C5DF;
+}
+
+#Products .Part2 .Cards .Card .Price .New {
+    padding-left: 7px;
+    color: #D51243;
+    font-size: 18px;
+}
+
+#Products .Part2 .Cards .Card .Button {
+    width: 215px;
+    height: 35px;
+    border-radius: 30px;
+    background-color: #233A95;
+    text-align: center;
+    padding-top: 7px;
+    cursor: pointer;
+    position: relative;
+}
+
+#Products .Part2 .Cards .Card .Button h4 {
+    color: white;
+    font-weight: lighter;
+}
+
+#Products .Part2 .Cards .Card .Maximize {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    text-align: center;
+    padding-top: 12px;
+    color: #202435;
+    position: relative;
+    transition-duration: 250ms;
+    cursor: pointer;
+    transform: translateX(150%);
+}
+
+#Products .Part2 .Cards .Card .Favorite {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    text-align: center;
+    padding-top: 12px;
+    color: #202435;
+    position: relative;
+    transition-duration: 250ms;
+    cursor: pointer;
+    transform: translateX(150%);
+}
+
+#Products .Part2 .Cards .Card .Maximize:hover {
+    background-color: #233A95;
+    color: white;
+}
+
+#Products .Part2 .Cards .Card .Favorite:hover {
+    background-color: #233A95;
+    color: white;
 }
 
 #Products .Part2 .Cards .Card .Image a img {
     width: 209px;
     height: 187px;
+}
+
+#Products .Part2 .Cards .Card1 {
+    border-right: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part2 .Cards .Card1:hover {
+    border: 1px solid #233A95;
+    z-index: 1;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#Products .Part2 .Cards .Card1:hover .Button {
+    transform: translateY(0);
+}
+
+#Products .Part2 .Cards .Card1:hover .Maximize {
+    transform: translateX(0);
+}
+
+#Products .Part2 .Cards .Card1:hover .Favorite {
+    transform: translateX(0);
+    transition-delay: 100ms;
+}
+
+#Products .Part2 .Cards .Card1 .Image {
+    top: 14px;
+}
+
+#Products .Part2 .Cards .Card1 .Image a .Description {
+    width: 90px;
+    height: 25px;
+    border-radius: 4px;
+    color: white;
+    background-color: #71778E;
+    text-align: center;
+    padding-top: 6px;
+    font-weight: lighter;
+    position: relative;
+    top: 18px;
+}
+
+#Products .Part2 .Cards .Card1 .Name {
+    width: 160px;
+    position: relative;
+    left: 18px;
+    top: 30px;
+}
+
+#Products .Part2 .Cards .Card1 .Stock {
+    top: 40px;
+}
+
+#Products .Part2 .Cards .Card1 .Price {
+    top: 70px;
+}
+
+#Products .Part2 .Cards .Card1 .Button {
+    left: 17px;
+    top: 80px;
+    transform: translateY(160%);
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card1 .Maximize {
+    bottom: 350px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card1 .Favorite {
+    bottom: 340px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card1 .Rating {
+    position: relative;
+    left: 18px;
+    top: 55px;
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Cards .Card1 .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+
+#Products .Part2 .Cards .Card1 .Rating .Stars .Selected {
+    color: #FFCD00;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card1 .Rating .Stars .NotSelected {
+    color: #D9D9E9;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card1 .Rating span {
+    color: #3E445A;
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+}
+
+#Products .Part2 .Cards .Card2 {
+    border-right: 1px solid rgb(209, 209, 209);
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part2 .Cards .Card2:hover {
+    border: 1px solid #233A95;
+    z-index: 1;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#Products .Part2 .Cards .Card2:hover .Button {
+    transform: translateY(0);
+}
+
+#Products .Part2 .Cards .Card2:hover .Maximize {
+    transform: translateX(0);
+}
+
+#Products .Part2 .Cards .Card2:hover .Favorite {
+    transform: translateX(0);
+    transition-delay: 100ms;
+}
+
+#Products .Part2 .Cards .Card2 .Image {
+    top: 39px;
+}
+
+#Products .Part2 .Cards .Card2 .Name {
+    width: 210px;
+    position: relative;
+    left: 18px;
+    top: 55px;
+}
+
+#Products .Part2 .Cards .Card2 .Stock {
+    top: 65px;
+}
+
+#Products .Part2 .Cards .Card2 .Price {
+    top: 95px;
+}
+
+#Products .Part2 .Cards .Card2 .Button {
+    left: 17px;
+    top: 105px;
+    transform: translateY(160%);
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card2 .Maximize {
+    bottom: 325px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card2 .Favorite {
+    bottom: 315px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card2 .Rating {
+    position: relative;
+    left: 18px;
+    top: 80px;
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Cards .Card2 .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+
+#Products .Part2 .Cards .Card2 .Rating .Stars .Selected {
+    color: #FFCD00;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card2 .Rating .Stars .NotSelected {
+    color: #D9D9E9;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card2 .Rating span {
+    color: #3E445A;
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+}
+
+#Products .Part2 .Cards .Card3 {
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part2 .Cards .Card3:hover {
+    border: 1px solid #233A95;
+    z-index: 1;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#Products .Part2 .Cards .Card3:hover .Button {
+    transform: translateY(0);
+}
+
+#Products .Part2 .Cards .Card3:hover .Maximize {
+    transform: translateX(0);
+}
+
+#Products .Part2 .Cards .Card3:hover .Favorite {
+    transform: translateX(0);
+    transition-delay: 100ms;
+}
+
+#Products .Part2 .Cards .Card3 .Image {
+    top: 14px;
+}
+
+#Products .Part2 .Cards .Card3 .Image a .Description {
+    width: 70px;
+    height: 25px;
+    border-radius: 10px;
+    color: #00B853;
+    background-color: #E5F8ED;
+    text-align: center;
+    padding-top: 6px;
+    position: relative;
+    top: 18px;
+}
+
+#Products .Part2 .Cards .Card3 .Name {
+    width: 170px;
+    position: relative;
+    left: 18px;
+    top: 30px;
+}
+
+#Products .Part2 .Cards .Card3 .Stock {
+    top: 40px;
+}
+
+#Products .Part2 .Cards .Card3 .Price {
+    top: 70px;
+}
+
+#Products .Part2 .Cards .Card3 .Button {
+    left: 17px;
+    top: 80px;
+    transform: translateY(160%);
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card3 .Maximize {
+    bottom: 350px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card3 .Favorite {
+    bottom: 340px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card3 .Rating {
+    position: relative;
+    left: 18px;
+    top: 55px;
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Cards .Card3 .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+
+#Products .Part2 .Cards .Card3 .Rating .Stars .Selected {
+    color: #FFCD00;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card3 .Rating span {
+    color: #3E445A;
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+}
+
+#Products .Part2 .Cards .Card4 {
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part2 .Cards .Card4:hover {
+    border: 1px solid #233A95;
+    z-index: 1;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#Products .Part2 .Cards .Card4:hover .Button {
+    transform: translateY(0);
+}
+
+#Products .Part2 .Cards .Card4:hover .Maximize {
+    transform: translateX(0);
+}
+
+#Products .Part2 .Cards .Card4:hover .Favorite {
+    transform: translateX(0);
+    transition-delay: 100ms;
+}
+
+#Products .Part2 .Cards .Card4 .Image {
+    top: 39px;
+}
+
+#Products .Part2 .Cards .Card4 .Name {
+    width: 210px;
+    position: relative;
+    left: 18px;
+    top: 55px;
+}
+
+#Products .Part2 .Cards .Card4 .Stock {
+    top: 65px;
+}
+
+#Products .Part2 .Cards .Card4 .PriceBetween {
+    display: inline-block;
+    position: relative;
+    left: 18px;
+    font-family: TT Rounds Neue;
+    position: relative;
+    top: 95px;
+}
+
+#Products .Part2 .Cards .Card4 .PriceBetween .Previous {
+    color: #D51243;
+    font-size: 18px;
+    padding-left: 2px;
+}
+
+#Products .Part2 .Cards .Card4 .PriceBetween .Between {
+    color: #202435;
+}
+#Products .Part2 .Cards .Card4 .PriceBetween .Next {
+    padding-left: 2px;
+    color: #D51243;
+    font-size: 18px;
+}
+
+#Products .Part2 .Cards .Card4 .Button {
+    left: 17px;
+    top: 105px;
+    transform: translateY(160%);
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card4 .Maximize {
+    bottom: 325px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card4 .Favorite {
+    bottom: 315px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card4 .Rating {
+    position: relative;
+    left: 18px;
+    top: 80px;
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Cards .Card4 .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+
+#Products .Part2 .Cards .Card4 .Rating .Stars .Selected {
+    color: #FFCD00;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card4 .Rating .Stars .NotSelected {
+    color: #D9D9E9;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card4 .Rating span {
+    color: #3E445A;
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
 }
 
 /* ---------- Products Part2 End ---------- */

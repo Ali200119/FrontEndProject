@@ -782,7 +782,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Products Start ---------- */
 
 #Products {
-    height: 1600px;
+    height: 2700px;
     position: relative;
     top: 70px;
     width: 1170px;
@@ -991,6 +991,8 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+/* ---------- Products Part2 Countdown Start ---------- */
 
 #Products .Part2 .Countdown {
     border: 2px solid #ED174A;
@@ -1207,6 +1209,12 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     border-radius: 30px;
     background-image: linear-gradient(to right, #D61443, #FFCC02);
 }
+
+/* ---------- Products Part2 Countdown End ---------- */
+
+
+
+/* ---------- Products Part2 Cards Start ---------- */
 
 #Products .Part2 .Cards {
     border: 1px solid rgb(209, 209, 209);
@@ -1969,6 +1977,39 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     bottom: 1px;
 }
 
+/* ---------- Products Part2 Cards End ---------- */
+
 /* ---------- Products Part2 End ---------- */
+
+
+
+/* ---------- Products Part3 Start ---------- */
+
+#Products .Part3 {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 100px;
+}
+
+#Products .Part3 .IceCream {
+    height: 260px;
+    width: 565px;
+    border: 1px solid lime;
+    border-radius: 5px;
+}
+
+#Products .Part3 .IceCream1 {
+    background-image: url("/assets/images/");
+}
+
+#Products .Part3 .IceCream a {
+    display: block;
+    height: 100%;
+}
+
+/* ---------- Products Part3 End ---------- */
 
 /* ---------- Products End ---------- */

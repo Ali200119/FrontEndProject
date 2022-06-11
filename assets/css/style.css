@@ -986,7 +986,6 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 {
     position: relative;
     top: 50px;
-    border: 1px solid lime;
     height: 920px;
     display: flex;
     flex-wrap: wrap;
@@ -1592,7 +1591,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Products .Part2 .Cards .Card3 .Image a .Description {
     width: 70px;
     height: 25px;
-    border-radius: 10px;
+    border-radius: 15px;
     color: #00B853;
     background-color: #E5F8ED;
     text-align: center;
@@ -1688,18 +1687,18 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Products .Part2 .Cards .Card4 .Image {
-    top: 39px;
+    top: 59px;
 }
 
 #Products .Part2 .Cards .Card4 .Name {
     width: 210px;
     position: relative;
     left: 18px;
-    top: 55px;
+    top: 75px;
 }
 
 #Products .Part2 .Cards .Card4 .Stock {
-    top: 65px;
+    top: 85px;
 }
 
 #Products .Part2 .Cards .Card4 .PriceBetween {
@@ -1708,7 +1707,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     left: 18px;
     font-family: TT Rounds Neue;
     position: relative;
-    top: 95px;
+    top: 115px;
 }
 
 #Products .Part2 .Cards .Card4 .PriceBetween .Previous {
@@ -1728,25 +1727,25 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 
 #Products .Part2 .Cards .Card4 .Button {
     left: 17px;
-    top: 105px;
+    top: 125px;
     transform: translateY(160%);
     transition-duration: 250ms;
 }
 
 #Products .Part2 .Cards .Card4 .Maximize {
-    bottom: 325px;
+    bottom: 305px;
     left: 190px;
 }
 
 #Products .Part2 .Cards .Card4 .Favorite {
-    bottom: 315px;
+    bottom: 295px;
     left: 190px;
 }
 
 #Products .Part2 .Cards .Card4 .Rating {
     position: relative;
     left: 18px;
-    top: 80px;
+    top: 100px;
     width: 83px;
     display: flex;
     justify-content: space-between;
@@ -1771,6 +1770,199 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Products .Part2 .Cards .Card4 .Rating span {
+    color: #3E445A;
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+}
+
+#Products .Part2 .Cards .Card5 {
+    border-right: 1px solid rgb(209, 209, 209);
+}
+
+#Products .Part2 .Cards .Card5:hover {
+    border: 1px solid #233A95;
+    z-index: 1;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#Products .Part2 .Cards .Card5:hover .Button {
+    transform: translateY(0);
+}
+
+#Products .Part2 .Cards .Card5:hover .Maximize {
+    transform: translateX(0);
+}
+
+#Products .Part2 .Cards .Card5:hover .Favorite {
+    transform: translateX(0);
+    transition-delay: 100ms;
+}
+
+#Products .Part2 .Cards .Card5 .Image {
+    top: 14px;
+}
+
+#Products .Part2 .Cards .Card5 .Image a .Description {
+    width: 70px;
+    height: 25px;
+    border-radius: 15px;
+    color: #00B853;
+    background-color: #E5F8ED;
+    text-align: center;
+    padding-top: 6px;
+    position: relative;
+    top: 18px;
+}
+
+#Products .Part2 .Cards .Card5 .Name {
+    width: 160px;
+    position: relative;
+    left: 18px;
+    top: 30px;
+}
+
+#Products .Part2 .Cards .Card5 .Stock {
+    top: 40px;
+}
+
+#Products .Part2 .Cards .Card5 .Price {
+    top: 70px;
+}
+
+#Products .Part2 .Cards .Card5 .Button {
+    left: 17px;
+    top: 80px;
+    transform: translateY(160%);
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card5 .Maximize {
+    bottom: 350px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card5 .Favorite {
+    bottom: 340px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card5 .Rating {
+    position: relative;
+    left: 18px;
+    top: 55px;
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Cards .Card5 .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+
+#Products .Part2 .Cards .Card5 .Rating .Stars .Selected {
+    color: #FFCD00;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card5 .Rating span {
+    color: #3E445A;
+    font-size: 11px;
+    position: relative;
+    bottom: 1px;
+}
+
+#Products .Part2 .Cards .Card6:hover {
+    border: 1px solid #233A95;
+    z-index: 1;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+#Products .Part2 .Cards .Card6:hover .Button {
+    transform: translateY(0);
+}
+
+#Products .Part2 .Cards .Card6:hover .Maximize {
+    transform: translateX(0);
+}
+
+#Products .Part2 .Cards .Card6:hover .Favorite {
+    transform: translateX(0);
+    transition-delay: 100ms;
+}
+
+#Products .Part2 .Cards .Card6 .Image {
+    top: 39px;
+}
+
+#Products .Part2 .Cards .Card6 .Name {
+    width: 192px;
+    position: relative;
+    left: 18px;
+    top: 55px;
+}
+
+#Products .Part2 .Cards .Card6 .Stock {
+    top: 65px;
+}
+
+#Products .Part2 .Cards .Card6 .Price {
+    top: 95px;
+}
+
+#Products .Part2 .Cards .Card6 .Button {
+    left: 17px;
+    top: 125px;
+    transform: translateY(160%);
+    transition-duration: 250ms;
+}
+
+#Products .Part2 .Cards .Card6 .Maximize {
+    bottom: 305px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card6 .Favorite {
+    bottom: 295px;
+    left: 190px;
+}
+
+#Products .Part2 .Cards .Card6 .Rating {
+    position: relative;
+    left: 18px;
+    top: 80px;
+    width: 83px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#Products .Part2 .Cards .Card6 .Rating .Stars {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70px;
+}
+
+#Products .Part2 .Cards .Card6 .Rating .Stars .Selected {
+    color: #FFCD00;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card6 .Rating .Stars .NotSelected {
+    color: #D9D9E9;
+    font-size: 10px;
+}
+
+#Products .Part2 .Cards .Card6 .Rating span {
     color: #3E445A;
     font-size: 11px;
     position: relative;

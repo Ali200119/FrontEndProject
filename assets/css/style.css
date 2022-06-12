@@ -785,7 +785,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     height: 2700px;
     position: relative;
     top: 70px;
-    width: 1170px;
+    width: 1165px;
     margin: 0 auto;
     border: 1px solid;
 }
@@ -1288,7 +1288,6 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     display: inline-block;
     position: relative;
     left: 18px;
-    font-family: TT Rounds Neue;
 }
 
 #Products .Part2 .Cards .Card .Price .Previous {
@@ -1986,7 +1985,6 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Products Part3 Start ---------- */
 
 #Products .Part3 {
-    border: 1px solid;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -1995,19 +1993,78 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Products .Part3 .IceCream {
-    height: 260px;
+    height: 250px;
     width: 565px;
-    border: 1px solid lime;
-    border-radius: 5px;
+    border-radius: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 #Products .Part3 .IceCream1 {
-    background-image: url("/assets/images/");
+    background-image: url("/assets/images/IceCream1.jpg");
+    
+}
+
+#Products .Part3 .IceCream1 .Button {
+    background-color: #233A95;
+}
+
+#Products .Part3 .IceCream2 {
+    background-image: url("/assets/images/IceCream2.jpg");
+}
+
+#Products .Part3 .IceCream2 .Button {
+    background-color: #ED174A;
 }
 
 #Products .Part3 .IceCream a {
     display: block;
     height: 100%;
+    text-decoration: none;
+}
+
+#Products .Part3 .IceCream a .Discount {
+    font-family: Barlow Semi Condensed;
+    color: #FF6048;
+    width: fit-content;
+    position: relative;
+    left: 41px;
+    margin-top: 45px;
+}
+
+#Products .Part3 .IceCream a .Title {
+    font-family: DexaPro;
+    color: #3E445A;
+    width: fit-content;
+    position: relative;
+    left: 41px;
+    margin-top: 15px;
+}
+
+#Products .Part3 .IceCream a .Bacola {
+    color: #3E445A;
+    font-family: News Gothic Light;
+    width: fit-content;
+    position: relative;
+    left: 41px;
+    margin-top: 6px;
+}
+
+#Products .Part3 .IceCream a .Button {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 41px;
+    margin-top: 25px;
+}
+
+#Products .Part3 .IceCream a .Button h5 {
+    font-weight: lighter;
 }
 
 /* ---------- Products Part3 End ---------- */

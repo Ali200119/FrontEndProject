@@ -2021,8 +2021,9 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Products .Part3 .IceCream a {
-    display: block;
+    display: inline-block;
     height: 100%;
+    width: 100%;
     text-decoration: none;
 }
 
@@ -2060,7 +2061,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     text-align: center;
     padding-top: 10px;
     color: white;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
     left: 41px;
     margin-top: 25px;
@@ -3280,3 +3281,90 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Products Part4 End ---------- */
 
 /* ---------- Products End ---------- */
+
+#Breakfeast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    top: 110px;
+    width: 1165px;
+    margin: 0 auto;
+}
+
+#Breakfeast .Card {
+    height: 220px;
+    width: 373px;
+    border-radius: 7px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#Breakfeast .Card1 {
+    background-image: url("/assets/images/Eggs.jpg");
+    
+}
+
+#Breakfeast .Card2 {
+    background-image: url("/assets/images/Coffee.jpg");
+}
+
+#Breakfeast .Card3 {
+    background-image: url("/assets/images/Bread.jpg");
+}
+
+#Breakfeast .Card a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+#Breakfeast .Card a .Discount {
+    font-family: Barlow Semi Condensed;
+    color: #00B853;
+    width: fit-content;
+    position: relative;
+    left: 41px;
+    margin-top: 45px;
+}
+
+#Breakfeast .Card a .Title {
+    font-family: DexaPro;
+    color: #3E445A;
+    width: fit-content;
+    position: relative;
+    left: 41px;
+    margin-top: 15px;
+}
+
+#Breakfeast .Card a .Slogan {
+    color: #9F9FB7;
+    font-family: News Gothic Light;
+    width: fit-content;
+    position: relative;
+    left: 41px;
+    margin-top: 6px;
+}
+
+#Breakfeast .Card a .Slogan h5 {
+    font-weight: lighter;
+}
+
+#Breakfeast .Card a .Button {
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 41px;
+    margin-top: 25px;
+    background-color: #C2C2D3;
+}
+
+#Breakfeast .Card a .Button h5 {
+    font-weight: lighter;
+}

@@ -725,14 +725,73 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: relative;
     top: 100px;
     border: 1px solid;
-    height: 2000px;
+    height: 2700px;
     width: 1185px;
     margin: 0 auto;
 }
 
 /* ---------- Posts Start ---------- */
 
+#Main .Posts {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid lime;
+    width: fit-content;
+    font-family: News Gothic Light;
+}
 
+#Main .Posts .Post a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#Main .Posts .Post a img {
+    width: 855px;
+    border-radius: 7px;
+}
+
+#Main .Posts .Post .Social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#Main .Posts .Post1 .Social {
+    width: 355px;
+}
+
+#Main .Posts .Post2 .Social {
+    width: 267px;
+}
+
+#Main .Posts .Post3 .Social {
+    width: 262px;
+}
+
+#Main .Posts .Post .Social h5 i {
+    color: #2BBEF9;
+}
+
+#Main .Posts .Post .Social h5 a {
+    color: #71778E;
+}
+
+#Main .Posts .Post .Social h5 a:hover {
+    text-decoration: underline;
+}
+
+#Main .Posts .Post .Title {
+    margin-top: 15px;
+}
+
+#Main .Posts .Post .Title a {
+    color: #202435;
+    font-size: 35px;
+    font-weight: bold;
+}
 
 /* ---------- Posts End ---------- */
 

@@ -19,21 +19,6 @@
     src: url("/assets/fonts/TT\ Rounds\ Neue.ttf");
 }
 
-@font-face {
-    font-family: DexaPro;
-    src: url("/assets/fonts/DexaPro.ttf");
-}
-
-@font-face {
-    font-family: Endurance W01 Cond;
-    src: url("/assets/fonts/Endurance\ W01\ Cond.ttf");
-}
-
-@font-face {
-    font-family: Carniola Italic;
-    src: url("/assets/fonts/Carniola\ Italic.ttf");
-}
-
 /* ---------- Header Start ---------- */
 
 header #Covid-19 {
@@ -718,3 +703,37 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- Nav Part3 End ---------- */
 
 /* ---------- Header End ---------- */
+
+
+
+/* ---------- Line Start ---------- */
+
+#Line {
+    position: relative;
+    top: 40px;
+    height: 1px;
+    background-color: rgb(209, 209, 209);
+}
+
+/* ---------- Line End ---------- */
+
+
+
+/* ---------- Main Start ---------- */
+
+#Main {
+    position: relative;
+    top: 100px;
+    border: 1px solid;
+    height: 2000px;
+    width: 1185px;
+    margin: 0 auto;
+}
+
+/* ---------- Posts Start ---------- */
+
+
+
+/* ---------- Posts End ---------- */
+
+/* ---------- Main End ---------- */

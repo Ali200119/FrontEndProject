@@ -19,6 +19,11 @@
     src: url("/assets/fonts/TT\ Rounds\ Neue.ttf");
 }
 
+@font-face {
+    font-family: DexaPro;
+    src: url("/assets/fonts/DexaPro.ttf");
+}
+
 /* ---------- Header Start ---------- */
 
 header #Covid-19 {
@@ -725,7 +730,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     position: relative;
     top: 100px;
     border: 1px solid;
-    height: 2700px;
+    height: fit-content;
     width: 1185px;
     margin: 0 auto;
 }
@@ -737,9 +742,9 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-between;
-    border: 1px solid lime;
     width: fit-content;
-    font-family: News Gothic Light;
+    height: 2760px;
+    font-family: DexaPro;
 }
 
 #Main .Posts .Post a {
@@ -760,15 +765,15 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Main .Posts .Post1 .Social {
-    width: 355px;
+    width: 390px;
 }
 
 #Main .Posts .Post2 .Social {
-    width: 267px;
+    width: 285px;
 }
 
 #Main .Posts .Post3 .Social {
-    width: 262px;
+    width: 285px;
 }
 
 #Main .Posts .Post .Social h5 i {
@@ -777,6 +782,7 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 
 #Main .Posts .Post .Social h5 a {
     color: #71778E;
+    font-weight: lighter;
 }
 
 #Main .Posts .Post .Social h5 a:hover {
@@ -784,13 +790,31 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 #Main .Posts .Post .Title {
-    margin-top: 15px;
+    margin-top: 10px;
+    width: fit-content;
 }
 
 #Main .Posts .Post .Title a {
     color: #202435;
     font-size: 35px;
-    font-weight: bold;
+}
+
+#Main .Posts .Post .Text {
+    width: 855px;
+    font-size: 93%;
+    margin-top: 10px;
+}
+
+#Main .Posts .Post .Button {
+    width: 115px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #233A95;
+    margin-top: 30px;
+    font-size: 14px;
+    padding-top: 11px;
+    border-radius: 4px;
 }
 
 /* ---------- Posts End ---------- */

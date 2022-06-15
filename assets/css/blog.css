@@ -733,6 +733,9 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     height: fit-content;
     width: 1185px;
     margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 /* ---------- Posts Start ---------- */
@@ -818,5 +821,152 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 }
 
 /* ---------- Posts End ---------- */
+
+
+
+/* ---------- RightSideBar Start ---------- */
+
+#Main .RightSideBar {
+    border: 1px solid lime;
+    width: 280px;
+    height: fit-content;
+}
+
+#Main .RightSideBar a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+#Main .RightSideBar .Title {
+    font-family: Barlow Semi Condensed;
+    color: #202435;
+    width: fit-content;
+}
+
+#Main .RightSideBar .Search input {
+    height: 40px;
+    width: 100%;
+    background-color: #F3F4F7;
+    padding-left: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+#Main .RightSideBar .Search input:focus {
+    outline: none;
+}
+
+#Main .RightSideBar .Search input::placeholder {
+    opacity: 0.8;
+}
+
+#Main .RightSideBar .Search .Glass {
+    font-size: 14px;
+    position: absolute;
+    right: 25px;
+    top: 15px;
+}
+
+#Main .RightSideBar .PopularPosts {
+    margin-top: 50px;
+}
+
+#Main .RightSideBar .PopularPosts .Posts {
+    height: 315px;
+    width: 100%;
+    border: 1px solid rgb(209, 209, 209);
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post {
+    height: fit-content;
+    width: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post .Image {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90px;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post .Image img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post .Image a {
+    border-radius: 50%;
+    height: 60px;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post .Image h6 {
+    background-color: #2BBEF9;
+    border: 3px solid white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    padding-top: 2px;
+    position: relative;
+    right: 20px;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post .Text {
+    font-family: DexaPro;
+    width: 170px;
+}
+
+#Main .RightSideBar .PopularPosts .Posts .Post .Text a {
+    color: #202435;
+}
+
+#Main .RightSideBar .SocialMedia {
+    margin-top: 50px;
+}
+
+#Main .RightSideBar .SocialMedia .Container {
+    margin-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 235px;
+}
+
+#Main .RightSideBar .SocialMedia .Container .Media {
+    height: 45px;
+    border-radius: 4px;
+    width: 100%;
+    transition-duration: 250ms;
+}
+
+#Main .RightSideBar .SocialMedia .Container .Media:hover {
+    opacity: 0.8;
+}
+
+#Main .RightSideBar .SocialMedia .Container .Media .Content {
+    color: white;
+    font-family: Barlow Semi Condensed;
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    position: relative;
+    left: 20px;
+    top: 13px;
+}
+
+/* ---------- RightSideBar End ---------- */
 
 /* ---------- Main End ---------- */

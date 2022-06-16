@@ -729,7 +729,6 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 #Main {
     position: relative;
     top: 100px;
-    border: 1px solid;
     height: fit-content;
     width: 1185px;
     margin: 0 auto;
@@ -777,6 +776,10 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 
 #Main .Posts .Post3 .Social {
     width: 285px;
+}
+
+#Main .Posts .Post4 .Social {
+    width: 287px;
 }
 
 #Main .Posts .Post .Social h5 i {
@@ -827,7 +830,6 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
 /* ---------- RightSideBar Start ---------- */
 
 #Main .RightSideBar {
-    border: 1px solid lime;
     width: 280px;
     height: fit-content;
 }
@@ -967,6 +969,462 @@ header nav .Part3 .ShopBar .Flex ul li:hover a {
     top: 13px;
 }
 
+#Main .RightSideBar .WidgetBanner {
+    margin-top: 50px;
+}
+
+#Main .RightSideBar .WidgetBanner img {
+    width: 100%;
+    margin-top: 25px;
+}
+
+#Main .Tags {
+    margin-top: 50px;
+}
+
+#Main .Tags .Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 25px;
+    height: 109px;
+}
+
+#Main .Tags .Container .Line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#Main .Tags .Container .Line a {
+    height: 32px;
+    padding-top: 7px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+#Main .Tags .Container .Line h5 {
+    font-family: DexaPro;
+    color: #202435;
+    width: fit-content;
+    font-weight: lighter;
+}
+
 /* ---------- RightSideBar End ---------- */
 
+
+
+/* ---------- Toggle Start ---------- */
+
+#Toggle {
+    margin-top: 180px;
+    font-family: DexaPro;
+    color: #202435;
+    padding-left: 720px;
+}
+
+#Toggle .Buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 125px;
+    text-align: center;
+}
+
+#Toggle .Buttons h5 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-weight: lighter;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+#Toggle .Buttons i {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+#Toggle .Buttons i:hover {
+    background-color: #F3F3F6;
+}
+
+/* ---------- Toggle End ---------- */
+
 /* ---------- Main End ---------- */
+
+
+
+/* ---------- Newsletter Start ---------- */
+
+#Newsletter {
+    height: 340px;
+    background-color: #233A95;
+    margin-top: 120px;
+}
+
+#Newsletter .Left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 520px;
+    height: 200px;
+    position: relative;
+    left: 310px;
+    top: 70px;
+}
+
+#Newsletter .Left .Title {
+    font-family: News Gothic Light;
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 110px;
+}
+
+#Newsletter .Left .Title h4 {
+    font-weight: 100;
+    color: white;
+}
+
+#Newsletter .Left .Title h2 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+#Newsletter .Left .Title h5 {
+    color: #919CCA;
+    width: 270px;
+    font-weight: 100;
+}
+
+#Newsletter .Left form .Letter {
+    color: #C2C2D3;
+    position: relative;
+    left: 20px;
+    top: 1px;
+    z-index: 1;
+}
+
+#Newsletter .Left form .Email {
+    height: 55px;
+    width: 400px;
+    padding-left: 45px;
+    border-radius: 5px;
+    border: 0;
+    position: relative;
+    right: 18px;
+}
+
+#Newsletter .Left form .Email::placeholder {
+    color: gray;
+}
+
+#Newsletter .Left form .Email:focus {
+    outline: none;
+}
+
+#Newsletter .Left form .Submit {
+    width: 90px;
+    height: 47px;
+    color: white;
+    background-color: #233A95;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    right: 118px;
+    cursor: pointer;
+}
+
+#Newsletter .Right {
+    position: relative;
+    left: 900px;
+    bottom: 137px;
+    display: inline-block;
+}
+
+/* ---------- Newsletter End ---------- */
+
+
+
+/* ---------- Prefooter Start ---------- */
+
+#Prefooter {
+    background-color: #F7F8FD;
+    height: 620px;
+}
+
+#Prefooter .Pluses {
+    font-family: News Gothic Light;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Prefooter .Pluses .Plus {
+    color: #3E445A;
+    height: 80px;
+    width: 285px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+#Prefooter .Pluses .Plus .Icon {
+    font-size: larger;
+}
+
+#Prefooter .Pluses .Plus h5 {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#Prefooter .Pluses .Plus1 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    border-right: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .Pluses .Plus2 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    border-right: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .Pluses .Plus3 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+    border-right: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .Pluses .Plus4 {
+    border-bottom: 1px rgb(209, 209, 209) solid;
+}
+
+#Prefooter .List {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1120px;
+    margin: 0 auto;
+    position: relative;
+    top: 125px;
+}
+
+#Prefooter .List ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+#Prefooter .List .UL1 {
+    height: 200px;
+}
+
+#Prefooter .List .UL2 {
+    height: 250px;
+}
+
+#Prefooter .List .UL3 {
+    height: 280px;
+}
+
+#Prefooter .List .UL4 {
+    height: 280px;
+}
+
+#Prefooter .List .UL5 {
+    height: 250px;
+}
+
+#Prefooter .List ul li {
+    display: inline-block;
+    font-size: small;
+}
+
+#Prefooter .List ul li a {
+    text-decoration: none;
+    color: #71778E;
+    font-family: News Gothic Light;
+}
+
+#Prefooter .List ul .Title {
+    padding-bottom: 15px;
+    font-family: TT Rounds Neue;
+}
+
+/* ---------- Prefooter End ---------- */
+
+
+
+/* ---------- Footer Start ---------- */
+
+footer {
+    height: 200px;
+    font-family: News Gothic Light;
+}
+
+footer .Part1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1210px;
+    margin: 0 auto;
+    position: relative;
+    top: 25px;
+}
+
+footer .Part1 .Phone {
+    display: flex;
+    flex-wrap: wrap;
+    width: 180px;
+    height: 55px;
+    justify-content: space-between;
+}
+
+footer .Part1 .Phone i {
+    width: 45px;
+    height: 45px;
+    color: #3E445A;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-left: 14px;
+    padding-top: 12px;
+    font-size: large;
+    transform: rotate(-45deg);
+    position: relative;
+    top: 6px;
+}
+
+footer .Part1 .Phone h3 {
+    padding-top: 7px;
+    color: #3E445A;
+}
+
+footer .Part1 .Phone h6 {
+    color: #8F919A;
+    font-weight: 100;
+    position: relative;
+    left: 61px;
+    bottom: 8px;
+}
+
+footer .Download {
+    text-align: right;
+    display: inline-block;
+    position: relative;
+    left: 225px;
+}
+
+footer .Download h6 {
+    color: #8F919A;
+    font-weight: 100;
+    padding-top: 3px;
+}
+
+footer .Part1 .Media {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 370px;
+}
+
+footer .Part1 .Media .Store {
+    display: inline-block;
+}
+
+footer .Part1 .Media .Store img {
+    position: relative;
+    top: 2px;
+}
+
+footer .Part1 .Media .Social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 127px;
+}
+
+footer .Part1 .Media .Social a {
+    border-radius: 50%;
+}
+
+footer .Part1 .Media .Social .Icon {
+    color: #233A95;
+}
+
+footer .Part1 .Media .Social .Facebook {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 7px;
+    padding-left: 12px ;
+}
+
+footer .Part1 .Media .Social .Twitter {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 8px;
+    padding-left: 10px ;
+}
+
+footer .Part1 .Media .Social .Instagram {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    border: 1px solid rgb(209, 209, 209);
+    padding-top: 8px;
+    padding-left: 11px ;
+}
+
+footer .Part2 {
+    border-top: 1px solid rgb(209, 209, 209);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 1230px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+    top: 60px;
+}
+
+footer .Part2 .Copyright {
+    color: #8F919A;
+    display: inline-block;
+}
+
+footer .Part2 .Policy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 270px;
+    position: relative;
+    left: 45px;
+}
+
+footer .Part2 .Policy a {
+    text-decoration: none;
+    color: #8F919A;
+}
+
+footer .Part2 .Policy a:hover {
+    text-decoration: underline;
+}
+
+footer .Part2 .Payment {
+    display: inline-block;
+}
+
+/* ---------- Footer End ---------- */
